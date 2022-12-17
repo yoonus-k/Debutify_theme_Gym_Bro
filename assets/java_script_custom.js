@@ -1,7 +1,7 @@
 /* To change the direction ---------------------------------------*/
 const mainObject = document.querySelector("#mainContent");
 const footerObject = document.querySelector("#section-footer");
-// hello new change
+
 const observer = new MutationObserver((par) => {
   par.forEach((elem) => {
     if (elem.type === "attributes") {
