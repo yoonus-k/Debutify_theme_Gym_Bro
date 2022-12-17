@@ -1,0 +1,9 @@
+
+<script id="vstar_product_rating" type="application/json">{{ product.metafields.vstar.product_rating }}</script>
+<script>
+var vstar_product_rating
+var vstar_rating_script = document.querySelector('#vstar_product_rating')
+if (vstar_rating_script) {
+  vstar_product_rating = vstar_rating_script.textContent === "" ? { "rating": 0, "total_reviews": 0, "total_star1": 0, "total_star2": 0, "total_star3": 0, "total_star4": 0, "total_star5": 0 } : JSON.parse(vstar_rating_script.textContent)
+}
+</script>

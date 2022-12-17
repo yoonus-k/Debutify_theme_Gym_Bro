@@ -1,0 +1,169 @@
+h2,
+.h2 {
+  color: #5600e3;
+  font-weight: bold;
+}
+/*
+============================
+Shopify-Store Page Customize
+=============================
+*/
+#professional-shopify-dropshipping-store
+  a.site-nav__link.site-nav__link--icon.js-drawer-open-button-left,
+#professional-shopify-dropshipping-store
+  a.site-nav__link.site-nav__link--icon.js-drawer-open-button-top,
+#professional-shopify-dropshipping-store
+  .grid__item.large--six-twelfths.medium--hide.small--hide.nav-containers.nav-container-menu,
+#professional-shopify-dropshipping-store
+  .announcement-message-item.announcement-announcement-0.rte,
+.guarantee-item,
+#professional-shopify-dropshipping-store
+  .grid__item.large--one-fifth.medium--one-fifth.footer-item.footer-link_list,
+#professional-shopify-dropshipping-store #automizely_reviews_main_widget,
+#professional-shopify-dropshipping-store .np-floating-bar.btn,
+#professional-shopify-dropshipping-store
+  a.site-nav__link.site-nav__link--icon.cart-link.js-drawer-open-button-right,
+#professional-shopify-dropshipping-store
+  #AddToCartForm--template--16695748395233__main,
+#professional-shopify-dropshipping-store .quantity-sticky_addtocart,
+#professional-shopify-dropshipping-store
+  #AddToCartForm--template--17220296343835__main {
+  display: none;
+}
+
+#professional-shopify-dropshipping-store
+  span.material-icons.icon-image.icon-xl.spacer-bottom {
+  color: #5600e3;
+}
+#professional-shopify-dropshipping-store h3.pt-plan-price {
+  color: #5600e3;
+}
+.quote-icon {
+  color: #6900ff;
+}
+.quote-icon-wrapper {
+  background-color: transparent;
+  border-radius: 6px;
+}
+#Quotes-template--16695748395233__quotes .card-header {
+  padding: 0px;
+}
+#weglot-switcher-2 {
+  display: none;
+}
+#professional-shopify-dropshipping-store #weglot-switcher-2 {
+  display: block;
+}
+#professional-shopify-dropshipping-store .slick-list {
+  direction: ltr;
+}
+#professional-shopify-dropshipping-store .grid {
+  display: -ms-flexbox;
+  display: flex;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+#professional-shopify-dropshipping-store .tab-header-title {
+  margin: 0px;
+  text-align: justify;
+}
+
+#professional-shopify-dropshipping-store li {
+  margin-bottom: 0;
+  margin-right: 1rem;
+}
+#professional-shopify-dropshipping-store .card-body > :last-child {
+  text-align: justify;
+}
+#professional-shopify-dropshipping-store .fp-banner .card-body > :last-child {
+  text-align: center;
+}
+/*
+============================
+cart page Customize
+=============================
+*/
+#your-shopping-cart
+  a.site-nav__link.site-nav__link--icon.js-drawer-open-button-left,
+#your-shopping-cart
+  a.site-nav__link.site-nav__link--icon.js-drawer-open-button-top,
+#your-shopping-cart
+  .grid__item.large--six-twelfths.medium--hide.small--hide.nav-containers.nav-container-menu,
+#your-shopping-cart .announcement-message-item.announcement-announcement-0.rte,
+.guarantee-item,
+#your-shopping-cart
+  .grid__item.large--one-fifth.medium--one-fifth.footer-item.footer-link_list,
+#your-shopping-cart #automizely_reviews_main_widget,
+#your-shopping-cart .np-floating-bar.btn {
+  display: none;
+}
+/*
+============================
+concat us page Customize
+=============================
+*/
+#contact a.site-nav__link.site-nav__link--icon.js-drawer-open-button-left,
+#contact a.site-nav__link.site-nav__link--icon.js-drawer-open-button-top,
+#contact
+  .grid__item.large--six-twelfths.medium--hide.small--hide.nav-containers.nav-container-menu,
+#contact .announcement-message-item.announcement-announcement-0.rte,
+.guarantee-item,
+#contact
+  .grid__item.large--one-fifth.medium--one-fifth.footer-item.footer-link_list,
+#contact #automizely_reviews_main_widget,
+#contact .np-floating-bar.btn {
+  display: none;
+}
+#contact
+  a.site-nav__link.site-nav__link--icon.cart-link.js-drawer-open-button-right {
+  display: none;
+}
+#contact #weglot-switcher-2 {
+  display: block;
+}
+#contact .grid {
+  list-style: none;
+  margin: 0px;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -moz-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  justify-content: left;
+}
+/*
+============================
+sonetel chat 
+=============================
+*/
+@media only screen and (max-width: 768px) {
+  div#SonetelWidget {
+    bottom: 60px !important;
+    right: 5px !important;
+  }
+}
+
+@media only screen and (min-width: 769px) {
+  div#SonetelWidget {
+    bottom: 80px !important;
+    right: 30px !important;
+  }
+}
+@media only screen and (min-width: 1201px) {
+  div#SonetelWidget {
+    bottom: 5px !important;
+    right: 5px !important;
+  }
+}
+/*
+============================
+logos section
+=============================
+*/
+.small--one-whole {
+  width: fit-content;
+}

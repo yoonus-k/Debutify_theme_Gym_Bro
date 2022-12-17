@@ -1,0 +1,12 @@
+
+<script src="{{ 'vstar-review.js' | asset_url }}" defer="defer"></script>
+<script id="vstar_product_review">
+var shopifyObj = {
+	shop_id : {{ shop.id | json }},
+	productName : {{ product.title | json }},
+	productId : {{ product.id | json }},
+	productImage : {{ product.images | json }},
+	themeName : {{ theme.name | json }},
+}
+</script>
+{{ shop.metafields.vstar.global_html_head }}
