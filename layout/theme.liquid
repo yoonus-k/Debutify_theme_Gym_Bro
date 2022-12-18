@@ -156,22 +156,35 @@
     {%- endif -%}
 
     <!-- Load fonts independently to prevent rendering blocks -->
-    <style>
-      {{ header_family | font_face: font_display: "swap" }}
-      {{ accent_family | font_face: font_display: "swap" }}
-      {{ base_family | font_face: font_display: "swap" }}
-      {{ base_family_bold | font_face: font_display: "swap" }}
-      {{ base_family_italic | font_face: font_display: "swap" }}
-      {{ base_family_bold_italic | font_face: font_display: "swap" }}
-      {{ accent_family_bold | font_face: font_display: "swap" }}
-      @font-face {
-        font-family: {{ icon_family }};
-        font-weight: 400;
-        font-style: normal;
-        font-display: block;
-        src: url({{ settings.icon | append: ".woff2" | asset_url }}) format("woff2");
-      }
-    </style>
+
+    {% stylesheet %}
+    {{
+      header_family | font_face: font_display:"swap"
+    }}
+    {{
+      accent_family | font_face: font_display:"swap"
+    }}
+    {{
+      base_family | font_face: font_display:"swap"
+    }}
+    {{
+      base_family_bold | font_face: font_display:"swap"
+    }}
+    {{
+      base_family_italic | font_face: font_display:"swap"
+    }}
+    {{
+      base_family_bold_italic | font_face: font_display:"swap"
+    }}
+    {{
+      accent_family_bold | font_face: font_display:"swap"
+    }}
+    @font-face { font-family:
+    {{
+      icon_family
+    }}; font-weight: 400; font-style: normal; font-display: block; src: url({{
+      settings.icon | append: ".woff2" | asset_url
+    }}) format("woff2"); } {% endstylesheet %}
 
     <!-- Theme strings and settings -->
     {%- render "translations-js" -%}
