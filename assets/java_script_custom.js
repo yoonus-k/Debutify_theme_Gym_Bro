@@ -92,7 +92,7 @@ window.onload = function () {
     });
     /* change announcment message ---------------------------------------*/
     const announcment = document.querySelector(
-      "#professional-shopify-dropshipping-store .announcement-message-item announcement-announcement-0 p"
+      "#professional-shopify-dropshipping-store .announcement-message-item p"
     );
     console.log(announcment);
   }
