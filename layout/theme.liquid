@@ -57,7 +57,7 @@
 
     <link rel="preconnect" href="https://debutify.com" />
 
-    {%- if settings.dbtfy_automatic_geolocation -%}
+    <!-- {%- if settings.dbtfy_automatic_geolocation -%}
     <link rel="preconnect" href="https://api.teathemes.net" crossorigin />
     {%- endif -%} {%- if settings.dbtfy_instagram_feed -%}
     <link rel="preconnect" href="https://graph.instagram.com/" crossorigin />
@@ -73,7 +73,7 @@
     font_modify: "weight", "bolder" assign icon_split = settings.icon | split:
     "-" capture icon_family for icon in icon_split unless forloop.last == true
     echo icon | capitalize | append: " " else echo icon | capitalize endunless
-    endfor endcapture -%}
+    endfor endcapture -%} -->
 
     <!-- Preload assets -->
     <link rel="preload" href="{{
