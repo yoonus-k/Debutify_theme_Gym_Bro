@@ -47,12 +47,12 @@ Shopify-Store Page Customize
 #Quotes-template--16695748395233__quotes .card-header {
   padding: 0px;
 }
-#weglot-switcher-2 {
+/* #weglot-switcher-2 {
   display: none;
-}
-#professional-shopify-dropshipping-store #weglot-switcher-2 {
+} */
+/* #professional-shopify-dropshipping-store #weglot-switcher-2 {
   display: block;
-}
+} */
 #professional-shopify-dropshipping-store .slick-list {
   direction: ltr;
 }
@@ -119,9 +119,9 @@ concat us page Customize
   a.site-nav__link.site-nav__link--icon.cart-link.js-drawer-open-button-right {
   display: none;
 }
-#contact #weglot-switcher-2 {
+/* #contact #weglot-switcher-2 {
   display: block;
-}
+} */
 #contact .grid {
   list-style: none;
   margin: 0px;
