@@ -95,5 +95,6 @@ window.onload = function () {
       "#professional-shopify-dropshipping-store .announcement-message-item p"
     );
     console.log(announcment);
+    announcment.innerHTML='Get your store within 7-Days';
   }
 };
