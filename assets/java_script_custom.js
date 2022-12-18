@@ -96,5 +96,6 @@ window.onload = function () {
     );
     console.log(announcment);
     announcment.innerHTML='Get your store within 7-Days';
+    
   }
 };
