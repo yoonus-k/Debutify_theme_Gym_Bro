@@ -1,158 +1,134 @@
-<!DOCTYPE html>
-<!-- new test -->
+<!doctype html>
 <html lang="{{ shop.locale }}" dir="ltr" class="test">
   <head>
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-7N3R5HD5X0"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-7N3R5HD5X0"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
 
-      gtag("config", "G-7N3R5HD5X0");
-    </script>
+  gtag('config', 'G-7N3R5HD5X0');
+</script>
 
+
+    
     <!-- Basic page needs -->
-    <meta charset="utf-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta
-      name="viewport"
-      content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no"
-    />
-    <meta name="theme-color" content="{{ settings.color_body_bg }}" />
-    <meta name="apple-mobile-web-app-capable" content="yes" />
-    <meta name="mobile-web-app-capable" content="yes" />
-    <meta name="author" content="Debutify" />
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,shrink-to-fit=no">
+    <meta name="theme-color" content="{{ settings.color_body_bg }}">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="mobile-web-app-capable" content="yes">
+    <meta name="author" content="Debutify">
 
     <!-- Preconnect external resources -->
-    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin />
-    <link rel="preconnect" href="https://shop.app" crossorigin />
-    <link rel="preconnect" href="https://monorail-edge.shopifysvc.com" />
+    <link rel="preconnect" href="https://cdn.shopify.com" crossorigin>
+    <link rel="preconnect" href="https://fonts.shopifycdn.com" crossorigin>
+    <link rel="preconnect" href="https://shop.app" crossorigin>
+    <link rel="preconnect" href="https://monorail-edge.shopifysvc.com">
 
     {%- if content_for_layout contains "product-template" -%}
-    <link rel="preconnect" href="https://godog.shopifycloud.com" />
+      <link rel="preconnect" href="https://godog.shopifycloud.com">
 
-    {%- if settings.enable_payment_button -%}
-    <link rel="preconnect" href="https://pay.google.com" crossorigin />
-    <link rel="preconnect" href="https://play.google.com" crossorigin />
-    {%- endif -%} {%- endif -%} {%- if content_for_layout contains
-    "featured-video" -%}
-    <link rel="preconnect" href="https://www.youtube.com" />
-    {%- endif -%} {%- if content_for_layout contains "map" -%}
-    <link rel="preconnect" href="https://maps.googleapis.com" />
-    {%- endif -%} {%- if request.page_type == "contact" or request.page_type ==
-    "product" or request.page_type == "captcha" -%}
-    <link rel="preconnect" href="https://www.google.com" />
-    <link rel="preconnect" href="https://www.gstatic.com" />
-    <link rel="preconnect" href="https://www.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link rel="preconnect" href="https://www.recaptcha.net" crossorigin />
+      {%- if settings.enable_payment_button -%}
+        <link rel="preconnect" href="https://pay.google.com" crossorigin>
+        <link rel="preconnect" href="https://play.google.com" crossorigin>
+      {%- endif -%}
     {%- endif -%}
 
-    <link rel="preconnect" href="https://debutify.com" />
+    {%- if content_for_layout contains "featured-video" -%}
+      <link rel="preconnect" href="https://www.youtube.com">
+    {%- endif -%}
+
+    {%- if content_for_layout contains "map" -%}
+      <link rel="preconnect" href="https://maps.googleapis.com">
+    {%- endif -%}
+
+    {%- if request.page_type == "contact" or request.page_type == "product" or request.page_type == "captcha" -%}
+      <link rel="preconnect" href="https://www.google.com">
+      <link rel="preconnect" href="https://www.gstatic.com">
+      <link rel="preconnect" href="https://www.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+      <link rel="preconnect" href="https://www.recaptcha.net" crossorigin>
+    {%- endif -%}
+
+    <link rel="preconnect" href="https://debutify.com">
 
     {%- if settings.dbtfy_automatic_geolocation -%}
-    <link rel="preconnect" href="https://api.teathemes.net" crossorigin />
-    {%- endif -%} {%- if settings.dbtfy_instagram_feed -%}
-    <link rel="preconnect" href="https://graph.instagram.com/" crossorigin />
-    {%- endif -%} {%- if settings.dbtfy_facebook_messenger -%}
-    <link rel="preconnect" href="https://www.facebook.com/" crossorigin />
-    <link rel="preconnect" href="https://www.facebook.com/" />
-    {%- endif -%} {%- liquid assign accent_family = settings.accent_family
-    assign base_family = settings.base_family assign header_family =
-    settings.header_family assign base_family_bold = base_family | font_modify:
-    "weight", "bolder" assign base_family_italic = base_family | font_modify:
-    "style", "italic" assign base_family_bold_italic = base_family_bold |
-    font_modify: "style", "italic" assign accent_family_bold = accent_family |
-    font_modify: "weight", "bolder" assign icon_split = settings.icon | split:
-    "-" capture icon_family for icon in icon_split unless forloop.last == true
-    echo icon | capitalize | append: " " else echo icon | capitalize endunless
-    endfor endcapture -%}
+      <link rel="preconnect" href="https://api.teathemes.net" crossorigin>
+    {%- endif -%}
+
+    {%- if settings.dbtfy_instagram_feed -%}
+      <link rel="preconnect" href="https://graph.instagram.com/" crossorigin>
+    {%- endif -%}
+
+    {%- if settings.dbtfy_facebook_messenger -%}
+      <link rel="preconnect" href="https://www.facebook.com/" crossorigin>
+      <link rel="preconnect" href="https://www.facebook.com/">
+    {%- endif -%}
+
+    {%- liquid
+      assign accent_family = settings.accent_family
+      assign base_family = settings.base_family
+      assign header_family = settings.header_family
+      assign base_family_bold = base_family | font_modify: "weight", "bolder"
+      assign base_family_italic = base_family | font_modify: "style", "italic"
+      assign base_family_bold_italic = base_family_bold | font_modify: "style", "italic"
+      assign accent_family_bold = accent_family | font_modify: "weight", "bolder"
+      assign icon_split = settings.icon | split: "-"
+      capture icon_family
+        for icon in icon_split
+          unless forloop.last == true
+            echo icon | capitalize | append: " "
+          else
+            echo icon | capitalize
+          endunless
+        endfor
+      endcapture
+    -%}
 
     <!-- Preload assets -->
-    <link rel="preload" href="{{
-      "theme.scss.css" | asset_url
-    }}" as="style">
-    <link
-      rel="preload"
-      as="font"
-      href="{{ header_family | font_url }}"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      as="font"
-      href="{{ accent_family | font_url }}"
-      type="font/woff2"
-      crossorigin
-    />
-    <link
-      rel="preload"
-      as="font"
-      href="{{ base_family | font_url }}"
-      type="font/woff2"
-      crossorigin
-    />
-    <link rel="preload" as="font" href="{{
-      settings.icon | append: ".woff2" | asset_url
-    }}" type="font/woff2" crossorigin> <link rel="preload" href="{{
-      "jquery-2.2.3.min.js" | asset_url
-    }}" as="script"> <link rel="preload" href="{{
-      "theme.min.js" | asset_url
-    }}" as="script"> <link rel="preload" href="{{
-      "lazysizes.min.js" | asset_url
-    }}" as="script"> <link rel="preload" href="{{
-      "dbtfy-addons.min.js" | asset_url
-    }}" as="script"> {%- if canonical_url != blank -%}
-    <link rel="canonical" href="{{ canonical_url }}" />
+    <link rel="preload" href="{{ "theme.scss.css" | asset_url }}" as="style">
+    <link rel="preload" as="font" href="{{ header_family | font_url }}" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="{{ accent_family | font_url }}" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="{{ base_family | font_url }}" type="font/woff2" crossorigin>
+    <link rel="preload" as="font" href="{{ settings.icon | append: ".woff2" | asset_url }}" type="font/woff2" crossorigin>
+    <link rel="preload" href="{{ "jquery-2.2.3.min.js" | asset_url }}" as="script">
+    <link rel="preload" href="{{ "theme.min.js" | asset_url }}" as="script">
+    <link rel="preload" href="{{ "lazysizes.min.js" | asset_url }}" as="script">
+    <link rel="preload" href="{{ "dbtfy-addons.min.js" | asset_url }}" as="script">
+
+    {%- if canonical_url != blank -%}
+      <link rel="canonical" href="{{ canonical_url }}">
     {%- endif -%}
 
     <!-- Fav icon -->
-    {%- assign favicon_url = settings.favicon | img_url: "100x100", crop:
-    "center" -%} {%- if settings.favicon == blank -%} {%- assign favicon_url =
-    "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII="
-    -%} {%- endif -%}
+    {%- assign favicon_url = settings.favicon | img_url: "100x100", crop: "center" -%}
 
-    <link
-      sizes="192x192"
-      rel="shortcut icon"
-      type="image/png"
-      id="favicon"
-      href="{{ favicon_url }}"
-    />
+    {%- if settings.favicon == blank -%}
+      {%- assign favicon_url = "data:image/x-icon;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQEAYAAABPYyMiAAAABmJLR0T///////8JWPfcAAAACXBIWXMAAABIAAAASABGyWs+AAAAF0lEQVRIx2NgGAWjYBSMglEwCkbBSAcACBAAAeaR9cIAAAAASUVORK5CYII=" -%}
+    {%- endif -%}
+
+    <link sizes="192x192" rel="shortcut icon" type="image/png" id="favicon" href="{{ favicon_url }}">
 
     <!-- Title and description -->
     <title>
-      {{ page_title }}{% if current_tags %}{%- assign meta_tags = current_tags |
-      join: ", " -%} &ndash; {{ "general.meta.tags" | t: tags:meta_tags }}{%
-      endif %}{% if current_page != 1 %} &ndash;
-      {{ "general.meta.page" | t: page:current_page }}{% endif %}{% unless
-      page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
+      {{ page_title }}{% if current_tags %}{%- assign meta_tags = current_tags | join: ", " -%} &ndash; {{ "general.meta.tags" | t: tags: meta_tags }}{% endif %}{% if current_page != 1 %} &ndash; {{ "general.meta.page" | t: page: current_page }}{% endif %}{% unless page_title contains shop.name %} &ndash; {{ shop.name }}{% endunless %}
     </title>
 
     {%- if page_description -%}
-    <meta name="description" content="{{ page_description | escape }}" />
+      <meta name="description" content="{{ page_description | escape }}">
     {%- endif -%}
 
     <!-- Social meta -->
     {%- render "social-meta-tags" -%}
 
     <!-- CSS  -->
-    {{
-      "theme.scss.css" | asset_url | stylesheet_tag
-    }}
+    {{ "theme.scss.css" | asset_url | stylesheet_tag }}
 
     {%- if settings.dbtfy_delivery_date -%}
-    {{
-      "flatpickr.min.css" | asset_url | stylesheet_tag
-    }}
+      {{ "flatpickr.min.css" | asset_url | stylesheet_tag }}
     {%- endif -%}
 
     <!-- Load fonts independently to prevent rendering blocks -->
@@ -173,160 +149,205 @@
       }
     </style>
 
+    
+
     <!-- Theme strings and settings -->
     {%- render "translations-js" -%}
 
     <!-- JS -->
-    {{
-      "jquery-2.2.3.min.js" | asset_url | script_tag
-    }}
+    {{ "jquery-2.2.3.min.js" | asset_url | script_tag }}
 
     <script src="{{ 'theme.min.js' | asset_url }}" defer="defer"></script>
 
     <script src="{{ 'lazysizes.min.js' | asset_url }}" async="async"></script>
 
-    {%- if settings.show_currency_selector -%} {%- if
-    settings.dbtfy_custom_currencies or shop.enabled_currencies.size > 1 and
-    settings.dbtfy_cart_goal -%}
-    <script
-      type="text/javascript"
-      src="/services/javascripts/currencies.js"
-      data-no-instant
-    ></script>
-    <script
-      src="{{ 'jquery.currencies.min.js' | asset_url }}"
-      defer="defer"
-    ></script>
-    {%- endif -%} {%- endif -%} {%- if request.page_type contains "customers/"
-    -%}
-    {{
-      "shopify_common.js" | shopify_asset_url | script_tag
-    }}
+    {%- if settings.show_currency_selector -%}
+      {%- if settings.dbtfy_custom_currencies or shop.enabled_currencies.size > 1 and settings.dbtfy_cart_goal -%}
+        <script type="text/javascript" src="/services/javascripts/currencies.js" data-no-instant></script>
+        <script src="{{ 'jquery.currencies.min.js' | asset_url }}" defer="defer"></script>
+      {%- endif -%}
+    {%- endif -%}
+
+    {%- if request.page_type contains "customers/" -%}
+      {{ "shopify_common.js" | shopify_asset_url | script_tag }}
     {%- endif -%}
 
     <!-- Header hook for plugins -->
-    {{
-      content_for_header
-    }}
+    {{ content_for_header }}
 
     {% render 'review-head' %}
+  
+    {{ "fancybox.min.css" | asset_url | stylesheet_tag }}
 
-    {{
-      "fancybox.min.css" | asset_url | stylesheet_tag
-    }}
-
-    <!-- Activation Code -------------------- -->
+<!-- Activation Code -------------------- -->
     <script src="{{ 'activate.js' | asset_url }}" defer="defer"></script>
+   
+<!--Custom CSS File -------------------- -->
+    {{ "css.css" | asset_url | stylesheet_tag }}
 
-    <!--Custom CSS File -------------------- -->
-    {{
-      "css.css" | asset_url | stylesheet_tag
-    }}
+<!--Custom JavaScript File -------------------- -->
+    <script src="{{ 'java_script_custom.js' | asset_url }} " defer="defer"></script>
 
-    <!--Custom JavaScript File -------------------- -->
-    <script
-      src="{{ 'java_script_custom.js' | asset_url }} "
-      defer="defer"
-    ></script>
-
-    {% render 'weglot_hreftags' %} {% render 'weglot_switcher' %}
+ {% render 'weglot_hreftags' %}
+{% render 'weglot_switcher' %}
 
     <!--transilation code -------------------- -->
+    
+    
+<script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
+<script>
+    Weglot.initialize({
+        api_key: 'wg_33fd21a9628149768eeaa3b943df01bc1'
+    });
+</script>
 
-    <script
-      type="text/javascript"
-      src="https://cdn.weglot.com/weglot.min.js"
-    ></script>
-    <script>
-      Weglot.initialize({
-        api_key: "wg_75f4bc6bfa21c5150e5902866d09f0b53",
-      });
-    </script>
-  </head>
+</head>
 
-  <body
-    id="{{ page_title | handle }}"
-    class="{% if settings.sticky_header %}sticky-header{% endif %}
+  <body id="{{ page_title | handle }}"
+        class="{% if settings.sticky_header %}sticky-header{% endif %}
                  {% if settings.sticky_announcement_bar %}sticky-announcement_bar{% endif %}
                  {% if settings.hero_header_desktop %}transparent-header--desktop{% endif %}
                  {% if settings.hero_header_mobile %}transparent-header--mobile{% else %}transparent-header--no-mobile{% endif %}
                  {% if settings.dbtfy_menu_bar %}menu_bar--present{% endif %}
                  {% if customer %}customer-logged-in{% endif %}
-                 template-{{ request.page_type | handle }}"
-  >
-    {%- liquid render 'hero-header' render "toasts" if settings.cart_type ==
-    "drawer" render "drawer-cart" elsif settings.cart_type == "modal" render
-    "cart-modal" endif render "drawer-search" render "dbtfy-age-check" render
-    "dbtfy-cookie-box" render "dbtfy-facebook-messenger" render
-    "dbtfy-newsletter-popup" render "dbtfy-page-transition" render
-    "dbtfy-quick-view", type: "container" render "dbtfy-social-discount" render
-    "cart-message-toast" render "dbtfy-cart-reminder" section
-    "dbtfy-account-settings" section "dbtfy-bullet-points" section
-    "dbtfy-cart-goal" section "dbtfy-cart-upsell" if request.page_type ==
-    "collection" section "dbtfy-collection-filters" endif section
-    "dbtfy-color-swatches" section "dbtfy-customizable-products" section
-    "dbtfy-delivery-time" section "dbtfy-product-tabs" section
-    "dbtfy-product-swatches" section "dbtfy-quantity-breaks" section
-    "dbtfy-size-chart" section "dbtfy-upsell-popup" section "drawer-menu" -%}
+                 template-{{ request.page_type | handle }}">
+  
+    
+    {%- liquid
+      render 'hero-header'
+      render "toasts"
+
+      if settings.cart_type == "drawer"
+        render "drawer-cart"
+      elsif settings.cart_type == "modal"
+        render "cart-modal"
+      endif
+
+      render "drawer-search"
+      render "dbtfy-age-check"
+      render "dbtfy-cookie-box"
+      render "dbtfy-facebook-messenger"
+      render "dbtfy-newsletter-popup"
+      render "dbtfy-page-transition"
+      render "dbtfy-quick-view", type: "container"
+      render "dbtfy-social-discount"
+      render "cart-message-toast"
+      render "dbtfy-cart-reminder"
+
+      section "dbtfy-account-settings"
+      section "dbtfy-bullet-points"
+      section "dbtfy-cart-goal"
+      section "dbtfy-cart-upsell"
+      if request.page_type == "collection"
+        section "dbtfy-collection-filters"
+      endif
+      section "dbtfy-color-swatches"
+      section "dbtfy-customizable-products"
+      section "dbtfy-delivery-time"
+      section "dbtfy-product-tabs"
+      section "dbtfy-product-swatches"
+      section "dbtfy-quantity-breaks"
+      section "dbtfy-size-chart"
+      section "dbtfy-upsell-popup"
+      section "drawer-menu"
+
+    -%}
 
     <div id="PageContainer" class="page-container">
-      <a class="visually-hidden event-focus-box" href="#mainContent">{{
-        "shopify.checkout.general.skip_to_content" | t
-      }}</a>
+      <a class="visually-hidden event-focus-box" href="#mainContent">{{ "shopify.checkout.general.skip_to_content" | t }}</a>
 
-      {%- liquid section "announcement" section "header" render "dbtfy-menu-bar"
-      render "dbtfy-quick-compare", type: "page" render "dbtfy-quick-compare",
-      type: "markup" unless request.page_type == "collection" render
-      "breadcrumbs" endunless -%}
+      {%- liquid
+        section "announcement"
+        section "header"
+        render "dbtfy-menu-bar"
+        render "dbtfy-quick-compare", type: "page"
+        render "dbtfy-quick-compare", type: "markup"
+
+        unless request.page_type == "collection"
+          render "breadcrumbs"
+        endunless
+      -%}
 
       <main id="mainContent" class="main-content fadeIn" role="main">
-        {%- if request.page_type == "captcha" or request.page_type == "policy"
-        -%}
-        <div class="box">
-          <div class="wrapper">
-            <div class="grid">
-              <div
-                class="grid__item large--eight-twelfths push--large--two-twelfths"
-              >
-                {%- endif -%} {%- if template == 'index' -%}
-                <div class="index-sections">
+        {%- if request.page_type == "captcha" or request.page_type == "policy" -%}
+          <div class="box">
+            <div class="wrapper">
+              <div class="grid">
+                <div class="grid__item large--eight-twelfths push--large--two-twelfths">
+                  {%- endif -%}
+
+                  {%- if template == 'index' -%}
+                    <div class="index-sections">
                   {%- endif -%}
 
                   {{ content_for_layout }}
 
                   {%- if template == 'index' -%}
+                    </div>
+                  {%- endif -%}
+
+                  {%- if request.page_type == "captcha" or request.page_type == "policy" -%}
                 </div>
-                {%- endif -%} {%- if request.page_type == "captcha" or
-                request.page_type == "policy" -%}
               </div>
             </div>
           </div>
-        </div>
         {%- endif -%}
       </main>
 
-      {%- liquid render "dbtfy-recently-viewed" section "dbtfy-instagram-feed"
-      section "guarantee" section "footer" -%} {%- if settings.show_top_button
+      {%- liquid
+        render "dbtfy-recently-viewed"
+        section "dbtfy-instagram-feed"
+        section "guarantee"
+        section "footer"
       -%}
-      <button
-        type="button"
-        class="btn-top stacked-on-top-of-content scroll-top btn btn--square btn-top-{{
-          settings.top_button_position
-        }} {% if settings.top_button_mobile %}small--hide{% endif %}"
-      >
-        <span class="{{ settings.icon }} icon-width" aria-hidden="true"
-          >keyboard_arrow_up</span
-        >
-      </button>
+
+      {%- if settings.show_top_button -%}
+        <button type="button" class="btn-top stacked-on-top-of-content scroll-top btn btn--square btn-top-{{ settings.top_button_position }} {% if settings.top_button_mobile %}small--hide{% endif %}">
+          <span class="{{ settings.icon }} icon-width" aria-hidden="true">keyboard_arrow_up</span>
+        </button>
       {%- endif -%}
     </div>
 
-    {% include 'cjpod' %}
-    <script
-      async
-      id="slcLiveChat"
-      src="https://widget.sonetel.com/SonetelWidget.min.js"
-      data-account-id="208080978"
-    ></script>
-  </body>
+    {%- if settings.newsletter_app == "klaviyo" and settings.klaviyo_app_public_key != blank and settings.klaviyo_app_list_id != blank -%}
+      <script src="https://a.klaviyo.com/media/js/onsite/onsite.js"></script>
+      <script>
+        var klaviyo = klaviyo || [];
+        klaviyo.init({
+          account: {{ settings.klaviyo_app_public_key | json }},
+          list: {{ settings.klaviyo_app_list_id | json }},
+          platform: "shopify"
+        });
+        klaviyo.enable("backinstock",{
+          trigger: {
+            product_page_text: "Notify Me When Available",
+            product_page_class: "btn",
+            product_page_text_align: "center",
+            product_page_margin: "0px",
+            replace_anchor: false
+          },
+          modal: {
+            headline: "{product_name}",
+            body_content: "Register to receive a notification when this item comes back in stock.",
+            email_field_label: "Email",
+            button_label: "Notify me when available",
+            subscription_success_label: "You're in! We'll let you know when it's back.",
+            footer_content: '',
+            additional_styles: "@import url('https://fonts.googleapis.com/css?family=Helvetica+Neue');",
+            drop_background_color: {{ settings.color_overlay | json }},
+            background_color: {{ settings.color_body_bg | json }},
+            text_color: {{ settings.color_body_text | json }},
+            button_text_color: {{ settings.color_button_text | json }},
+            button_background_color: {{ settings.color_primary | json }},
+            close_button_color: "#ccc",
+            error_background_color: "#fff",
+            error_text_color: {{ settings.color_errors | json }},
+            success_background_color: "#fff",
+            success_text_color: {{ settings.color_secondary | json }}
+          }
+        });
+
+    {%- endif -%}
+  {% include 'cjpod' %}
+  <script async id="slcLiveChat" src="https://widget.sonetel.com/SonetelWidget.min.js" data-account-id="208080978"></script>
+</body>
 </html>
