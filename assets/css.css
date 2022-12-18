@@ -15,9 +15,7 @@ Shopify-Store Page Customize
   a.site-nav__link.site-nav__link--icon.js-drawer-open-button-top,
 #professional-shopify-dropshipping-store
   .grid__item.large--six-twelfths.medium--hide.small--hide.nav-containers.nav-container-menu,
-#professional-shopify-dropshipping-store
-  .announcement-message-item.announcement-announcement-0.rte,
-.guarantee-item,
+#professional-shopify-dropshipping-store .guarantee-item,
 #professional-shopify-dropshipping-store
   .grid__item.large--one-fifth.medium--one-fifth.footer-item.footer-link_list,
 #professional-shopify-dropshipping-store #automizely_reviews_main_widget,
@@ -173,6 +171,7 @@ logos section
 hide add to cart button
 =============================
 */
-#professional-shopify-dropshipping-store form#AddToCartForm--template--17232835182875__main {
+#professional-shopify-dropshipping-store
+  form#AddToCartForm--template--17232835182875__main {
   display: none;
 }
