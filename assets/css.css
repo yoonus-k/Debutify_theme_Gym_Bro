@@ -168,3 +168,11 @@ logos section
 .small--one-whole {
   width: fit-content;
 }
+/*
+============================
+hide add to cart button
+=============================
+*/
+#professional-shopify-dropshipping-store form#AddToCartForm--template--17232835182875__main {
+  display: none;
+}
