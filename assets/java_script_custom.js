@@ -88,14 +88,12 @@ window.onload = function () {
     sticky_btn1.type = "button";
     /* click event */
     sticky_btn1.addEventListener("click", (func) => {
-      window.open(
-        "https://ultratech24.com/pages/contact",
-        "_self"
-      );
+      window.open("https://ultratech24.com/pages/contact", "_self");
     });
+    /* change announcment message ---------------------------------------*/
+    const announcment = document.querySelector(
+      "#professional-shopify-dropshipping-store .announcement-message-item announcement-announcement-0 p"
+    );
+    console.log(announcment);
   }
 };
-
-/* change announcment message ---------------------------------------*/
-const announcment=document.querySelector('#professional-shopify-dropshipping-store .announcement-message-item announcement-announcement-0 p');
-console.log(announcment);
