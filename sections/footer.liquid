@@ -324,7 +324,7 @@
           -%}
 
           <p class="credentials text-small">
-            <span class="text-small">Copyright &copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url }}{{shop.address}}</span>
+            <span class="text-small">Copyright &copy; {{ 'now' | date: '%Y' }} {{ shop.name | link_to: routes.root_url }}{{shop.currency}}</span>
 
             {%- if section.settings.custom_credential != blank -%}
               <span class="rte text-small"> | {{ section.settings.custom_credential | remove: '<p>' | remove: '</p>' }}</span>
