@@ -1,7 +1,7 @@
 {% if 3>2 %}
 <div>
-  <h2>Hello this my sec</h2>
+  <h2 style="color:{{section.settings.mysec;}} ;">Hello this my sec</h2>
 </div>
-{% endif %} {% schema %} { "name": "mysec", "settings": [ { "type": "color",
-"name": "select color", "label":"mysec settings", "default": "red", } ] } {%
-endschema %}
+{% endif %} {% schema %} { "name": "mysec", "settings": [ { "type":
+"color","id":"mysec", "name": "select color", "label":"mysec settings",
+"default": "red", } ] } {% endschema %}
