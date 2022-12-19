@@ -735,6 +735,12 @@
         "autoplay": false,
         "autoplayspeed": 5
       }
+    },
+    "6d2da866-9811-4f9f-a7a0-218e1e1e222c": {
+      "type": "mysec",
+      "settings": {
+        "select_color": "#3484e1"
+      }
     }
   },
   "order": [
@@ -759,6 +765,7 @@
     "0d4c80de-d3d9-4577-83c1-6af134038f18",
     "faq-section",
     "quotes",
-    "7cc90313-3acc-47ea-a60d-01ba6603612e"
+    "7cc90313-3acc-47ea-a60d-01ba6603612e",
+    "6d2da866-9811-4f9f-a7a0-218e1e1e222c"
   ]
 }
