@@ -1,0 +1,36 @@
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+      }
+    },
+    "92b92d49-eeab-4b9e-857a-21c3a374af32": {
+      "type": "featured-products",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Shop Now",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "home_featured_products": "frontpage",
+        "rows": "2",
+        "desktop_grid": "3",
+        "mobile_grid": "1",
+        "show_view_all": false,
+        "button_label": "View all",
+        "button_link": "",
+        "button_style": "btn-outline-primary",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "92b92d49-eeab-4b9e-857a-21c3a374af32"
+  ]
+}
