@@ -99,3 +99,4 @@ window.onload = function () {
     announcment.classList.add("ann");
   }
 };
+
