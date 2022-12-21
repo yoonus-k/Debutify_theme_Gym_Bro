@@ -1,192 +1,183 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
-  </head>
-  <body>
-    <table class="table table-bordered table-dark">
-      <thead>
-        <tr>
-          <th scope="col">#</th>
-          <th scope="col">Country</th>
-          <th scope="col">Promo Code</th>
-          <th scope="col">Redemptions</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>UK</td>
-          <td>JEC20</td>
-          <td>32</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>UK</td>
-          <td>GET25</td>
-          <td>54</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>SA</td>
-          <td>LAM20</td>
-          <td>23</td>
-        </tr>
-        <tr>
-          <th scope="row">4</th>
-          <td>USA</td>
-          <td>TEW15</td>
-          <td>10</td>
-        </tr>
-        <tr>
-          <th scope="row">5</th>
-          <td>UK</td>
-          <td>TAS20</td>
-          <td>4</td>
-        </tr>
-        <tr>
-          <th scope="row">6</th>
-          <td>UK</td>
-          <td>TAB20</td>
-          <td>44</td>
-        </tr>
-        <tr>
-          <th scope="row">7</th>
-          <td>EGY</td>
-          <td>SAM20</td>
-          <td>15</td>
-        </tr>
-        <tr>
-          <th scope="row">8</th>
-          <td>EGY</td>
-          <td>QSS20</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <th scope="row">9</th>
-          <td>UK</td>
-          <td>OFF20</td>
-          <td>3</td>
-        </tr>
-        <tr>
-          <th scope="row">10</th>
-          <td>SA</td>
-          <td>LA20</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <th scope="row">11</th>
-          <td>SA</td>
-          <td>SHA20</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <th scope="row">12</th>
-          <td>SA</td>
-          <td>AMN20</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <th scope="row">13</th>
-          <td>SA</td>
-          <td>ARW20</td>
-          <td>0</td>
-        </tr>
-        <tr>
-          <th scope="row">14</th>
-          <td>UK</td>
-          <td>GOR20</td>
-          <td>1</td>
-        </tr>
-        <tr>
-          <th scope="row">15</th>
-          <td>EGY</td>
-          <td>OSA20</td>
-          <td>0</td>
-        </tr>
-      </tbody>
-    </table>
-  </body>
-  <style>
-    .table {
-      --bs-table-color: var(--bs-body-color);
-      --bs-table-bg: transparent;
-      --bs-table-border-color: var(--bs-border-color);
-      --bs-table-accent-bg: transparent;
-      --bs-table-striped-color: var(--bs-body-color);
-      --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
-      --bs-table-active-color: var(--bs-body-color);
-      --bs-table-active-bg: rgba(0, 0, 0, 0.1);
-      --bs-table-hover-color: var(--bs-body-color);
-      --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
-      width: 100%;
-      margin-bottom: 1rem;
-      color: var(--bs-table-color);
-      vertical-align: top;
-      border-color: var(--bs-table-border-color);
-    }
-    .table > :not(caption) > * > * {
-      padding: 0.5rem 0.5rem;
-      background-color: var(--bs-table-bg);
-      border-bottom-width: 1px;
-      box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
-    }
-    .table > tbody {
-      vertical-align: inherit;
-    }
-    .table > thead {
-      vertical-align: bottom;
-    }
-    .table-bordered > :not(caption) > * {
-      border-width: 1px 0;
-    }
-    .table-bordered > :not(caption) > * > * {
-      border-width: 0 1px;
-    }
-    .table-dark {
-      --bs-table-color: #fff;
-      --bs-table-bg: #212529;
-      --bs-table-border-color: #373b3e;
-      --bs-table-striped-bg: #2c3034;
-      --bs-table-striped-color: #fff;
-      --bs-table-active-bg: #373b3e;
-      --bs-table-active-color: #fff;
-      --bs-table-hover-bg: #323539;
-      --bs-table-hover-color: #fff;
-      color: var(--bs-table-color);
-      border-color: var(--bs-table-border-color);
-    }
-    .row {
-      --bs-gutter-x: 1.5rem;
-      --bs-gutter-y: 0;
-      display: flex;
-      flex-wrap: wrap;
-      margin-top: calc(-1 * var(--bs-gutter-y));
-      margin-right: calc(-0.5 * var(--bs-gutter-x));
-      margin-left: calc(-0.5 * var(--bs-gutter-x));
-    }
-    .row > * {
-      flex-shrink: 0;
-      width: 100%;
-      max-width: 100%;
-      padding-right: calc(var(--bs-gutter-x) * 0.5);
-      padding-left: calc(var(--bs-gutter-x) * 0.5);
-      margin-top: var(--bs-gutter-y);
-    }
-    .col {
-      flex: 1 0 0%;
-    }
-    .wrapper,
-    .inner-nav-containers,
-    .section-footer,
-    .np-floating-bar {
-      display: none;
-    }
-  </style>
-</html>
+<table class="table table-bordered table-dark">
+  <thead>
+    <tr>
+      <th scope="col">#</th>
+      <th scope="col">Country</th>
+      <th scope="col">Promo Code</th>
+      <th scope="col">Redemptions</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>UK</td>
+      <td>JEC20</td>
+      <td>32</td>
+    </tr>
+    <tr>
+      <th scope="row">2</th>
+      <td>UK</td>
+      <td>GET25</td>
+      <td>54</td>
+    </tr>
+    <tr>
+      <th scope="row">3</th>
+      <td>SA</td>
+      <td>LAM20</td>
+      <td>23</td>
+    </tr>
+    <tr>
+      <th scope="row">4</th>
+      <td>USA</td>
+      <td>TEW15</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <th scope="row">5</th>
+      <td>UK</td>
+      <td>TAS20</td>
+      <td>4</td>
+    </tr>
+    <tr>
+      <th scope="row">6</th>
+      <td>UK</td>
+      <td>TAB20</td>
+      <td>44</td>
+    </tr>
+    <tr>
+      <th scope="row">7</th>
+      <td>EGY</td>
+      <td>SAM20</td>
+      <td>15</td>
+    </tr>
+    <tr>
+      <th scope="row">8</th>
+      <td>EGY</td>
+      <td>QSS20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">9</th>
+      <td>UK</td>
+      <td>OFF20</td>
+      <td>3</td>
+    </tr>
+    <tr>
+      <th scope="row">10</th>
+      <td>SA</td>
+      <td>LA20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">11</th>
+      <td>SA</td>
+      <td>SHA20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">12</th>
+      <td>SA</td>
+      <td>AMN20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">13</th>
+      <td>SA</td>
+      <td>ARW20</td>
+      <td>0</td>
+    </tr>
+    <tr>
+      <th scope="row">14</th>
+      <td>UK</td>
+      <td>GOR20</td>
+      <td>1</td>
+    </tr>
+    <tr>
+      <th scope="row">15</th>
+      <td>EGY</td>
+      <td>OSA20</td>
+      <td>0</td>
+    </tr>
+  </tbody>
+</table>
+
+<style>
+  .table {
+    --bs-table-color: var(--bs-body-color);
+    --bs-table-bg: transparent;
+    --bs-table-border-color: var(--bs-border-color);
+    --bs-table-accent-bg: transparent;
+    --bs-table-striped-color: var(--bs-body-color);
+    --bs-table-striped-bg: rgba(0, 0, 0, 0.05);
+    --bs-table-active-color: var(--bs-body-color);
+    --bs-table-active-bg: rgba(0, 0, 0, 0.1);
+    --bs-table-hover-color: var(--bs-body-color);
+    --bs-table-hover-bg: rgba(0, 0, 0, 0.075);
+    width: 100%;
+    margin-bottom: 1rem;
+    color: var(--bs-table-color);
+    vertical-align: top;
+    border-color: var(--bs-table-border-color);
+  }
+  .table > :not(caption) > * > * {
+    padding: 0.5rem 0.5rem;
+    background-color: var(--bs-table-bg);
+    border-bottom-width: 1px;
+    box-shadow: inset 0 0 0 9999px var(--bs-table-accent-bg);
+  }
+  .table > tbody {
+    vertical-align: inherit;
+  }
+  .table > thead {
+    vertical-align: bottom;
+  }
+  .table-bordered > :not(caption) > * {
+    border-width: 1px 0;
+  }
+  .table-bordered > :not(caption) > * > * {
+    border-width: 0 1px;
+  }
+  .table-dark {
+    --bs-table-color: #fff;
+    --bs-table-bg: #212529;
+    --bs-table-border-color: #373b3e;
+    --bs-table-striped-bg: #2c3034;
+    --bs-table-striped-color: #fff;
+    --bs-table-active-bg: #373b3e;
+    --bs-table-active-color: #fff;
+    --bs-table-hover-bg: #323539;
+    --bs-table-hover-color: #fff;
+    color: var(--bs-table-color);
+    border-color: var(--bs-table-border-color);
+  }
+  .row {
+    --bs-gutter-x: 1.5rem;
+    --bs-gutter-y: 0;
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: calc(-1 * var(--bs-gutter-y));
+    margin-right: calc(-0.5 * var(--bs-gutter-x));
+    margin-left: calc(-0.5 * var(--bs-gutter-x));
+  }
+  .row > * {
+    flex-shrink: 0;
+    width: 100%;
+    max-width: 100%;
+    padding-right: calc(var(--bs-gutter-x) * 0.5);
+    padding-left: calc(var(--bs-gutter-x) * 0.5);
+    margin-top: var(--bs-gutter-y);
+  }
+  .col {
+    flex: 1 0 0%;
+  }
+  .wrapper,
+  .inner-nav-containers,
+  .section-footer,
+  .np-floating-bar {
+    display: none;
+  }
+</style>
+
 {% schema %} { "name": "affiliate", "class": "affiliate", "settings": [ {
 "type": "color", "id": "select_color", "label":"affiliate color" } ], "presets":
 [ { "category": "reference", "name":"affiliate" } ] } {% endschema %}
