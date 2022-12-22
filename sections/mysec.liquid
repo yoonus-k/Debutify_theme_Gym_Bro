@@ -1,5 +1,7 @@
 {% for item in product.images%}
-  <img src="{{item|image_url:width:{{section.settings.range}}}}">
+{%- assign variable = {{section.settings.range}}-%}
+variabel
+  <img src="{{item|image_url:width:}}">
 {% endfor %}
 {% schema %}
 {
