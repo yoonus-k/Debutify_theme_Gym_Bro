@@ -1,5 +1,5 @@
 {% for item in product.images%}
-  <img src="{{item|image_url:width:100}}">
+  <img src="{{item|image_url:width:{{section.settings.range}}}}">
 {% endfor %}
 {% schema %}
 {
