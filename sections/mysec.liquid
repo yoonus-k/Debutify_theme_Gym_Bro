@@ -1,9 +1,4 @@
-{% if 3>2 %}
-    <div>
-        <h2 style="color:{{section.settings.select_color}};" >Hello this my sec</h2>
-        
-    </div>
-{% endif %}
+
 {% schema %}
 {
    "name": "mysec",
@@ -13,8 +8,13 @@
        "type": "color",
       "id": "select_color",
       "label":"mysec settings"
-     
-    }
+         },{
+          "type":"range",
+          "id":"range",
+          "label":"choase a widh",
+          "max":"100",
+          "step":"0.1"
+         }
   ],
  "presets": [
     {
