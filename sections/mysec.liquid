@@ -1,4 +1,6 @@
-
+{% for item in product.images%}
+  <img src="{{item|image_url:width:100}}">
+{% endfor %}
 {% schema %}
 {
    "name": "mysec",
