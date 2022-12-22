@@ -312,7 +312,7 @@
         "show_on_desktop": true,
         "show_on_mobile": true,
         "full_width": false,
-        "title": "Featured video",
+        "title": "",
         "subtitle": "",
         "section_style": "section-blank"
       }
