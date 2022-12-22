@@ -314,7 +314,7 @@
         "full_width": false,
         "title": "",
         "subtitle": "",
-        "section_style": "section-blank"
+        "section_style": "section-default"
       }
     },
     "faq-section": {
