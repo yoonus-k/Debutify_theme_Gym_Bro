@@ -180,7 +180,7 @@ hide add to cart button
 bullet points
 =============================
 */
-ul.pbp-points.inline-list.text-right {
+.pbp-points {
   display: flex;
   flex-direction: column;
 }
