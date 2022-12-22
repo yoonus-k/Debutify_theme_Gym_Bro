@@ -175,3 +175,12 @@ hide add to cart button
   form#AddToCartForm--template--17232835182875__main {
   display: none;
 }
+/*
+============================
+bullet points
+=============================
+*/
+ul.pbp-points.inline-list.text-right {
+  display: flex;
+  flex-direction: column;
+}
