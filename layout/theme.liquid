@@ -148,9 +148,6 @@
         src: url({{ settings.icon | append: ".woff2" | asset_url }}) format("woff2");
       }
     </style>
-    {% stylesheet 'scss' %}
-      
-    {% endstylesheet %}
 
     
 
@@ -195,17 +192,16 @@
 {% render 'weglot_switcher' %}
 
     <!--transilation code -------------------- -->
-
+    
     
 <script type="text/javascript" src="https://cdn.weglot.com/weglot.min.js"></script>
 <script>
     Weglot.initialize({
-        api_key: 'wg_b47247dcb227ad3387adb7b5cf211d337'
+        api_key: 'wg_33fd21a9628149768eeaa3b943df01bc1'
     });
 </script>
 
 </head>
-
 
   <body id="{{ page_title | handle }}"
         class="{% if settings.sticky_header %}sticky-header{% endif %}
@@ -311,9 +307,8 @@
         </button>
       {%- endif -%}
     </div>
-   
-  {% include 'cjpod' %}
+
+    
   <script async id="slcLiveChat" src="https://widget.sonetel.com/SonetelWidget.min.js" data-account-id="208080978"></script>
-       
 </body>
 </html>
