@@ -5,6 +5,17 @@
       "settings": {
       }
     },
+    "c799fc4b-723d-46eb-990e-d911c744a5bc": {
+      "type": "featured-image",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "full_width": false,
+        "image": "shopify:\/\/shop_images\/Ultra_transprent.png",
+        "section_style": "section-blank",
+        "image_link": ""
+      }
+    },
     "7b4041a9-c727-45f2-80dc-2e9a3491bcd9": {
       "type": "featured-content",
       "settings": {
@@ -44,7 +55,7 @@
         "text": "<p>Our team of customer service staff can be contacted anytime and they are dedicated to ensuring that every one of our customer's expectations are exceeded. Contact at  <a href=\"mailto:support@ultratech24.com\" target=\"_blank\" title=\"mailto:support@ultratech24.com\">support@ultratech24.com<\/a>Remember to subscribe to our newsletter to keep up to date with all the curated deals and coolest products online!<\/p>",
         "section_style": "section-blank",
         "text_size": "large",
-        "text_alignment": "text-center",
+        "text_alignment": "",
         "button_style": "btn--primary",
         "button_label": "",
         "button_link": ""
@@ -131,6 +142,7 @@
   },
   "order": [
     "main",
+    "c799fc4b-723d-46eb-990e-d911c744a5bc",
     "7b4041a9-c727-45f2-80dc-2e9a3491bcd9",
     "b0518a79-f332-4e84-88fe-480faa478f52",
     "c52ff2c9-e0f1-472b-b7f6-5ae40bad2eda",
