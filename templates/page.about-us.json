@@ -14,7 +14,7 @@
         "text": "<p>We are glad that you have taken the time to take a look at our store. We promise you that you would not be disappointed!<\/p>",
         "section_style": "section-blank",
         "text_size": "large",
-        "text_alignment": "text-center",
+        "text_alignment": "",
         "button_style": "btn--primary",
         "button_label": "",
         "button_link": ""
