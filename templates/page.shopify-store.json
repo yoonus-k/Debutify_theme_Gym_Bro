@@ -11,7 +11,7 @@
         "template--17232835412251__1268d124-ecba-4957-a435-b00f28838090-16718106344614a7d0-0": {
           "type": "plan",
           "settings": {
-            "border": false,
+            "border": true,
             "title": "",
             "dbtfy_full_background": false,
             "dbtfy_plan_badge": "Most popular",
