@@ -11,7 +11,7 @@
         "show_on_desktop": true,
         "show_on_mobile": true,
         "title": "HEY THERE, WELCOME TO OUR STORE!",
-        "text": "<p>We are glad that you have taken the time to take a look at our store.<br\/>We promise you that you would not be disappointed!<\/p>",
+        "text": "<p>We are glad that you have taken the time to take a look at our store. We promise you that you would not be disappointed!<\/p>",
         "section_style": "section-blank",
         "text_size": "large",
         "text_alignment": "text-center",
@@ -27,6 +27,21 @@
         "show_on_mobile": true,
         "title": "WHY US?",
         "text": "<p>Our business is setup for online sales only to keep the costs down with the highest quality and pass on all of the savings to you. By offering our products online we can save you up to 70% of retail prices. All our products are of great quality and come with a back or exchange guarantee. We make customer service the most important aspect of our business.<\/p>",
+        "section_style": "section-blank",
+        "text_size": "large",
+        "text_alignment": "",
+        "button_style": "btn--primary",
+        "button_label": "",
+        "button_link": ""
+      }
+    },
+    "c52ff2c9-e0f1-472b-b7f6-5ae40bad2eda": {
+      "type": "featured-content",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "ANY QUESTION ?",
+        "text": "<p>Our team of customer service staff can be contacted anytime and they are dedicated to ensuring that every one of our customer's expectations are exceeded. Contact at  <a href=\"mailto:support@ultratech24.com\" target=\"_blank\" title=\"mailto:support@ultratech24.com\">support@ultratech24.com<\/a>Remember to subscribe to our newsletter to keep up to date with all the curated deals and coolest products online!<\/p>",
         "section_style": "section-blank",
         "text_size": "large",
         "text_alignment": "text-center",
@@ -118,6 +133,7 @@
     "main",
     "7b4041a9-c727-45f2-80dc-2e9a3491bcd9",
     "b0518a79-f332-4e84-88fe-480faa478f52",
+    "c52ff2c9-e0f1-472b-b7f6-5ae40bad2eda",
     "119c47d5-2092-434d-af4f-fa9b156f66c5",
     "92b92d49-eeab-4b9e-857a-21c3a374af32"
   ]
