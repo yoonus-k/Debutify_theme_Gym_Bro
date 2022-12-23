@@ -1,1 +1,91 @@
-{"sections":{"main":{"type":"page","settings":{}},"119c47d5-2092-434d-af4f-fa9b156f66c5":{"type":"quotes","blocks":{"template--16641174831329__119c47d5-2092-434d-af4f-fa9b156f66c5-1665774297a1a62c85-2":{"type":"quote","settings":{"title":"","icon":"format_quote","quote":"<p><em>\" I was amazed at the quality of the product and fast shipping. Definitely I will recommend you to my friends! \" <\/em><\/p>","author":"Riggy G","text_alignment":"text-center","text_alignment_mobile":"text-center"}},"template--16641174831329__119c47d5-2092-434d-af4f-fa9b156f66c5-1665774297a1a62c85-0":{"type":"quote","settings":{"title":"","icon":"format_quote","quote":"<p><em>\" Thanks guys, keep up the good work! Needless to say I am extremely satisfied with the products. Great job, I will definitely be ordering again! \"<\/em><\/p>","author":"Neddy H","text_alignment":"text-center","text_alignment_mobile":"text-center"}},"template--16641174831329__119c47d5-2092-434d-af4f-fa9b156f66c5-1665774297a1a62c85-1":{"type":"quote","settings":{"title":"","icon":"format_quote","quote":"<p><em>\" Nice work on your store (Ultra Tech). I love Technology. \"<br\/><\/em><\/p>","author":"Rhianon D","text_alignment":"text-center","text_alignment_mobile":"text-center"}}},"block_order":["template--16641174831329__119c47d5-2092-434d-af4f-fa9b156f66c5-1665774297a1a62c85-2","template--16641174831329__119c47d5-2092-434d-af4f-fa9b156f66c5-1665774297a1a62c85-0","template--16641174831329__119c47d5-2092-434d-af4f-fa9b156f66c5-1665774297a1a62c85-1"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"What Our Customers Say","subtitle":"","section_style":"section-blank","quote_width":"60","arrows":true,"dots":true,"autoplay":true,"autoplayspeed":4}},"92b92d49-eeab-4b9e-857a-21c3a374af32":{"type":"featured-products","settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Shop Now","subtitle":"","section_style":"section-blank","home_featured_products":"frontpage","rows":"2","desktop_grid":"3","mobile_grid":"1","show_view_all":false,"button_label":"View all","button_link":"","button_style":"btn-outline-primary","slider_related_products":true,"arrows":true,"dots":true,"autoplay":false,"autoplayspeed":5}}},"order":["main","119c47d5-2092-434d-af4f-fa9b156f66c5","92b92d49-eeab-4b9e-857a-21c3a374af32"]}
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+      }
+    },
+    "fa12f634-06fe-4053-be27-b665dfd1e1e1": {
+      "type": "dbtfy-pricing-table",
+      "blocks": {
+        "template--17232834887963__fa12f634-06fe-4053-be27-b665dfd1e1e1-16718099088a2d8ed6-0": {
+          "type": "plan",
+          "settings": {
+            "border": false,
+            "title": "",
+            "dbtfy_full_background": false,
+            "dbtfy_plan_badge": "Most popular",
+            "dbtfy_plan_icon": "local_offer",
+            "dbtfy_plan_title": "Title",
+            "dbtfy_plan_description": "",
+            "dbtfy_plan_price": "$19.99",
+            "dbtfy_plan_price_text": "",
+            "dbtfy_plan_button_label": "Get started",
+            "dbtfy_plan_button_link": "",
+            "dbtfy_plan_button_style": "btn-outline-primary",
+            "dbtfy_plan_button_description": "",
+            "dbtfy_plan_details": "<p>point 1, point 2, point 3<\/p>",
+            "dbtfy_plan_details_icon": "check_circle"
+          }
+        },
+        "template--17232834887963__fa12f634-06fe-4053-be27-b665dfd1e1e1-16718099088a2d8ed6-1": {
+          "type": "plan",
+          "settings": {
+            "border": false,
+            "title": "",
+            "dbtfy_full_background": false,
+            "dbtfy_plan_badge": "Most popular",
+            "dbtfy_plan_icon": "local_offer",
+            "dbtfy_plan_title": "Title",
+            "dbtfy_plan_description": "",
+            "dbtfy_plan_price": "$19.99",
+            "dbtfy_plan_price_text": "",
+            "dbtfy_plan_button_label": "Get started",
+            "dbtfy_plan_button_link": "",
+            "dbtfy_plan_button_style": "btn-outline-primary",
+            "dbtfy_plan_button_description": "",
+            "dbtfy_plan_details": "<p>point 1, point 2, point 3<\/p>",
+            "dbtfy_plan_details_icon": "check_circle"
+          }
+        },
+        "template--17232834887963__fa12f634-06fe-4053-be27-b665dfd1e1e1-16718099088a2d8ed6-2": {
+          "type": "plan",
+          "settings": {
+            "border": false,
+            "title": "",
+            "dbtfy_full_background": false,
+            "dbtfy_plan_badge": "Most popular",
+            "dbtfy_plan_icon": "local_offer",
+            "dbtfy_plan_title": "Title",
+            "dbtfy_plan_description": "",
+            "dbtfy_plan_price": "$19.99",
+            "dbtfy_plan_price_text": "",
+            "dbtfy_plan_button_label": "Get started",
+            "dbtfy_plan_button_link": "",
+            "dbtfy_plan_button_style": "btn-outline-primary",
+            "dbtfy_plan_button_description": "",
+            "dbtfy_plan_details": "<p>point 1, point 2, point 3<\/p>",
+            "dbtfy_plan_details_icon": "check_circle"
+          }
+        }
+      },
+      "block_order": [
+        "template--17232834887963__fa12f634-06fe-4053-be27-b665dfd1e1e1-16718099088a2d8ed6-0",
+        "template--17232834887963__fa12f634-06fe-4053-be27-b665dfd1e1e1-16718099088a2d8ed6-1",
+        "template--17232834887963__fa12f634-06fe-4053-be27-b665dfd1e1e1-16718099088a2d8ed6-2"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Pricing table",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "dbtfy_button_position": "middle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "fa12f634-06fe-4053-be27-b665dfd1e1e1"
+  ]
+}
