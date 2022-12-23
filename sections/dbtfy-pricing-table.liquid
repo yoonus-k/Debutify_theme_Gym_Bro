@@ -20,13 +20,7 @@
            </div>
         </div>
       {%- endunless -%}
-      {% stylesheet %}
-        .border-true{
-          
-            border: 2px #5600E3 solid;
-        
-        }
-      {% endstylesheet %}
+      
 
       <div class="border-{{section.blocks.settings.border}} grid grid-spacer pt-pricing-plans pt-button-position-{{ section.settings.dbtfy_button_position }} text-center">
 
@@ -135,6 +129,13 @@
   </div>
 </div>
 {%- endif -%}
+{% stylesheet %}
+        .border-true{
+          
+            border: 2px #5600E3 solid;
+        
+        }
+      {% endstylesheet %}
 
 {% schema %}
   {
