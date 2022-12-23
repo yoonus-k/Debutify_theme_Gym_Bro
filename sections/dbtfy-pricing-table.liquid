@@ -22,7 +22,7 @@
       {%- endunless -%}
       
 
-      <div class="border-{{section.blocks.settings.border}} grid grid-spacer pt-pricing-plans pt-button-position-{{ section.settings.dbtfy_button_position }} text-center">
+      <div class="grid grid-spacer pt-pricing-plans pt-button-position-{{ section.settings.dbtfy_button_position }} text-center">
 
         {%- capture column_width -%}
           {%- render 'block-width' -%}
@@ -38,7 +38,7 @@
               </div>
               {%- endif -%}
 
-              <div class="card pt-pricing-plan{% if block.settings.dbtfy_full_background %} pt-full-background{% endif %}">
+              <div class="border-{{block.settings.border}} card pt-pricing-plan{% if block.settings.dbtfy_full_background %} pt-full-background{% endif %}">
                 {%- if block.settings.dbtfy_plan_title != blank -%}
                 <div class="card-header justify-center text-center">
                   <h3 class="pt-plan-title spacer-bottom-none">{{ block.settings.dbtfy_plan_title }}</h3>
@@ -137,7 +137,7 @@
             border: 2px #5600E3 solid;
         
         }
-      {% endstylesheet %}
+{% endstylesheet %}
 
 {% schema %}
   {
