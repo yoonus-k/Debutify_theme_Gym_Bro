@@ -1,1 +1,91 @@
-{"sections":{"main":{"type":"page","settings":{}},"92b92d49-eeab-4b9e-857a-21c3a374af32":{"type":"featured-products","settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Shop Now","subtitle":"","section_style":"section-blank","home_featured_products":"frontpage","rows":"2","desktop_grid":"3","mobile_grid":"1","show_view_all":false,"button_label":"View all","button_link":"","button_style":"btn-outline-primary","slider_related_products":true,"arrows":true,"dots":true,"autoplay":false,"autoplayspeed":5}}},"order":["main","92b92d49-eeab-4b9e-857a-21c3a374af32"]}
+{
+  "sections": {
+    "main": {
+      "type": "page",
+      "settings": {
+      }
+    },
+    "1268d124-ecba-4957-a435-b00f28838090": {
+      "type": "dbtfy-pricing-table",
+      "blocks": {
+        "template--17232835412251__1268d124-ecba-4957-a435-b00f28838090-16718106344614a7d0-0": {
+          "type": "plan",
+          "settings": {
+            "border": false,
+            "title": "",
+            "dbtfy_full_background": false,
+            "dbtfy_plan_badge": "Most popular",
+            "dbtfy_plan_icon": "local_offer",
+            "dbtfy_plan_title": "Title",
+            "dbtfy_plan_description": "",
+            "dbtfy_plan_price": "$19.99",
+            "dbtfy_plan_price_text": "",
+            "dbtfy_plan_button_label": "Get started",
+            "dbtfy_plan_button_link": "",
+            "dbtfy_plan_button_style": "btn-outline-primary",
+            "dbtfy_plan_button_description": "",
+            "dbtfy_plan_details": "<p>point 1, point 2, point 3<\/p>",
+            "dbtfy_plan_details_icon": "check_circle"
+          }
+        },
+        "template--17232835412251__1268d124-ecba-4957-a435-b00f28838090-16718106344614a7d0-1": {
+          "type": "plan",
+          "settings": {
+            "border": false,
+            "title": "",
+            "dbtfy_full_background": false,
+            "dbtfy_plan_badge": "Most popular",
+            "dbtfy_plan_icon": "local_offer",
+            "dbtfy_plan_title": "Title",
+            "dbtfy_plan_description": "",
+            "dbtfy_plan_price": "$19.99",
+            "dbtfy_plan_price_text": "",
+            "dbtfy_plan_button_label": "Get started",
+            "dbtfy_plan_button_link": "",
+            "dbtfy_plan_button_style": "btn-outline-primary",
+            "dbtfy_plan_button_description": "",
+            "dbtfy_plan_details": "<p>point 1, point 2, point 3<\/p>",
+            "dbtfy_plan_details_icon": "check_circle"
+          }
+        },
+        "template--17232835412251__1268d124-ecba-4957-a435-b00f28838090-16718106344614a7d0-2": {
+          "type": "plan",
+          "settings": {
+            "border": false,
+            "title": "",
+            "dbtfy_full_background": false,
+            "dbtfy_plan_badge": "Most popular",
+            "dbtfy_plan_icon": "local_offer",
+            "dbtfy_plan_title": "Title",
+            "dbtfy_plan_description": "",
+            "dbtfy_plan_price": "$19.99",
+            "dbtfy_plan_price_text": "",
+            "dbtfy_plan_button_label": "Get started",
+            "dbtfy_plan_button_link": "",
+            "dbtfy_plan_button_style": "btn-outline-primary",
+            "dbtfy_plan_button_description": "",
+            "dbtfy_plan_details": "<p>point 1, point 2, point 3<\/p>",
+            "dbtfy_plan_details_icon": "check_circle"
+          }
+        }
+      },
+      "block_order": [
+        "template--17232835412251__1268d124-ecba-4957-a435-b00f28838090-16718106344614a7d0-0",
+        "template--17232835412251__1268d124-ecba-4957-a435-b00f28838090-16718106344614a7d0-1",
+        "template--17232835412251__1268d124-ecba-4957-a435-b00f28838090-16718106344614a7d0-2"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Pricing table",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "dbtfy_button_position": "middle"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "1268d124-ecba-4957-a435-b00f28838090"
+  ]
+}
