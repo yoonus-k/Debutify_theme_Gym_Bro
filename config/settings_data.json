@@ -58,7 +58,7 @@
     "dbtfy_wish_list": false,
     "dbtfy_collection_filters": false,
     "dbtfy_delivery_date": false,
-    "dbtfy_mega_menu": false,
+    "dbtfy_mega_menu": true,
     "dbtfy_page_transition": false,
     "dbtfy_product_tabs": true,
     "dbtfy_quick_compare": false,
