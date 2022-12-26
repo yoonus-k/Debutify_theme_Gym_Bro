@@ -293,7 +293,9 @@
               "title_9": "",
               "dbtfy_swatches_color_value_9": "",
               "title_10": "",
-              "dbtfy_swatches_color_value_10": ""
+              "dbtfy_swatches_color_value_10": "",
+              "title_11": "",
+              "dbtfy_swatches_color_value_11": ""
             }
           }
         },
@@ -812,6 +814,41 @@
       },
       "header": {
         "type": "header",
+        "blocks": {
+          "622265c8-cee0-4dae-a52b-5b96af207365": {
+            "type": "mega",
+            "settings": {
+              "title": "",
+              "dbtfy_mega_menu_nav_link": "Mega menu",
+              "dbtfy_mega_menu_nav_link_url": "",
+              "dbtfy_mega_menu_position": 1,
+              "dbtfy_mega_menu_header": true,
+              "dbtfy_mega_menu_multi": "footer",
+              "dbtfy_mega_menu_carousel_title": "Specials",
+              "dbtfy_mega_menu_carousel_title_link": "",
+              "dbtfy_mega_menu_collection": "",
+              "dbtfy_mega_menu_product_slider_count": "2",
+              "dbtfy_mega_menu_product_slider_total_count": 2,
+              "dbtfy_mega_menu_product_slider_arrows": true,
+              "dbtfy_mega_menu_product_slider_dots": true,
+              "dbtfy_mega_menu_product_slider_autoplay": false,
+              "dbtfy_mega_menu_product_slider_autoplayspeed": 5,
+              "dbtfy_mega_menu_multi_image_slider_arrows": true,
+              "dbtfy_mega_menu_multi_image_slider_dots": true,
+              "dbtfy_mega_menu_multi_image_slider_autoplay": false,
+              "dbtfy_mega_menu_multi_image_slider_autoplayspeed": 5,
+              "dbtfy_mega_menu_multi_image_link_1": "",
+              "dbtfy_mega_menu_multi_image_link_2": "",
+              "dbtfy_mega_menu_multi_image_link_3": "",
+              "dbtfy_mega_menu_multi_image_link_4": "",
+              "dbtfy_mega_menu_multi_image_link_5": "",
+              "dbtfy_mega_menu_multi_image_link_6": ""
+            }
+          }
+        },
+        "block_order": [
+          "622265c8-cee0-4dae-a52b-5b96af207365"
+        ],
         "settings": {
           "main_menu_link_list": "main-menu",
           "navigation_type": "center",
