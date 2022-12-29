@@ -106,6 +106,7 @@ const sticky_obs = new MutationObserver(function () {
     document.querySelector("body").id ==
       "professional-shopify-dropshipping-store"
   ) {
+    console.log("visable");
     const sticky = document.querySelector(
       ".btn--sticky_addtocart .material-icons"
     );
