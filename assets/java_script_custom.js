@@ -70,31 +70,11 @@ window.onload = function () {
     window.location.href ===
     "https://ultratech24.com/products/professional-shopify-dropshipping-store"
   ) {
-    // const sticky = document.querySelector(
-    //   ".btn--sticky_addtocart .material-icons"
-    // );
-    // const sticky_btn = document.querySelector(
-    //   ".btn--sticky_addtocart .btn-text-sticky_addtocart"
-    // );
-    // const sticky_btn1 = document.querySelector(".btn--sticky_addtocart");
-
-    // /* check the lang */
-    // if (document.documentElement.getAttribute("lang") === "en") {
-    // } else {
-    //   sticky.innerHTML = "contact_phone";
-    //   sticky_btn.innerHTML = "تواصل معنا";
-    // }
-
-    // sticky_btn1.type = "button";
-    // /* click event */
-    // sticky_btn1.addEventListener("click", (func) => {
-    //   window.open("https://ultratech24.com/pages/contact", "_self");
-    // });
     /* change announcment message ---------------------------------------*/
     const announcment = document.querySelector(
       "#professional-shopify-dropshipping-store .announcement-message-item p"
     );
-    
+
     announcment.innerHTML = "Get your store within 7-Days";
     announcment.classList.add("ann");
   }
