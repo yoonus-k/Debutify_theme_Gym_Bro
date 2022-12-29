@@ -116,6 +116,8 @@ const sticky_obs = new MutationObserver(function () {
 
     /* check the lang */
     if (document.documentElement.getAttribute("lang") === "en") {
+      sticky.innerHTML = "contact_phone";
+      sticky_btn.innerHTML = "Contact Us";
     } else {
       sticky.innerHTML = "contact_phone";
       sticky_btn.innerHTML = "تواصل معنا";
