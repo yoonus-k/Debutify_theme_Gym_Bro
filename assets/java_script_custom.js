@@ -94,7 +94,7 @@ window.onload = function () {
     const announcment = document.querySelector(
       "#professional-shopify-dropshipping-store .announcement-message-item p"
     );
-    console.log(announcment);
+    
     announcment.innerHTML = "Get your store within 7-Days";
     announcment.classList.add("ann");
   }
