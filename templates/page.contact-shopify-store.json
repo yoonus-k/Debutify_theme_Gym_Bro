@@ -52,8 +52,8 @@
           "settings": {
             "title": "",
             "image": "shopify:\/\/shop_images\/telegram.png",
-            "link": "",
-            "targe_blank": false
+            "link": "https:\/\/t.me\/UltraTech_24",
+            "targe_blank": true
           }
         }
       },
