@@ -215,8 +215,8 @@ border animation
   /* Paint an image in the border */
   border-image: conic-gradient(
       from var(--angle),
-      #5600E3 0deg 90deg,
-      #2DFFB3 90deg 360deg
+      #5600E3 0deg 180deg,
+      #2DFFB3 180deg 360deg
     )
     1 stretch;
   background: rgb(255 255 255 / var(--opacity));
