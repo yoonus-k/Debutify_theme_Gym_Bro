@@ -203,9 +203,6 @@ border animation
 }
 
 .logo-list-section .card-body {
- 
-  
-  
   display: grid;
   place-content: center;
   text-align: center;
@@ -227,17 +224,6 @@ border animation
   background: rgb(255 255 255 / var(--opacity));
 }
 
-/** show a warning in browers that don't support it **/
-.warning {
-  margin: 2em;
-  padding: 1em;
-  border: 1px solid #ccc;
-}
-.warning p {
-  margin: 0;
-  padding: 0;
-  text-align: center;
-}
 /* Animate when Houdini is available */
 @supports (background: paint(houdini)) {
   @property --opacity {
@@ -264,31 +250,7 @@ border animation
     }
   }
 
-  .rainbow {
+  .logo-list-section .card-body {
     animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
   }
-
-  /* Hide the warning */
-  .warning {
-    display: none;
-  }
-}
-
-html,
-body {
-  padding: 0;
-  margin: 0;
-  height: 100%;
-}
-
-body {
-  display: grid;
-  place-content: center;
-  gap: 0.5em;
-
-  text-align: center;
-  line-height: 1.42;
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
-    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
-    sans-serif;
 }
