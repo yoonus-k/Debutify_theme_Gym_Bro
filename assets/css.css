@@ -194,8 +194,7 @@ border animation
 .logo-list-section .card-body {
   --border-size: 3px;
   --border-angle: 0turn;
-  width: 60vmin;
-  height: 50vmin;
+ 
   background-image: conic-gradient(
       from var(--border-angle),
       #213,
