@@ -144,19 +144,45 @@ sonetel chat
     bottom: 60px !important;
     right: 5px !important;
   }
+  /* for whatsapp icon */
+  a.whatsapp {
+    position: fixed;
+    top: 80%;
+    right: 5px;
+    height: 3.5rem;
+    width: 3.5rem;
+    z-index: 10000;
+  }
 }
-
 @media only screen and (min-width: 769px) {
   div#SonetelWidget {
     bottom: 80px !important;
     right: 30px !important;
   }
+  /* for whatsapp icon */
+  a.whatsapp {
+    position: fixed;
+    top: 78%;
+    right: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    z-index: 10000;
+}
 }
 @media only screen and (min-width: 1201px) {
   div#SonetelWidget {
     bottom: 5px !important;
     right: 5px !important;
   }
+  /* for whatsapp icon */
+  a.whatsapp {
+    position: fixed;
+    top: 86%;
+    right: 5px;
+    height: 4rem;
+    width: 4rem;
+    z-index: 10000;
+}
 }
 /*
 ============================
@@ -215,8 +241,8 @@ border animation
   /* Paint an image in the border */
   border-image: conic-gradient(
       from var(--angle),
-      #5600E3 0deg 180deg,
-      #2DFFB3 180deg 360deg
+      #5600e3 0deg 180deg,
+      #2dffb3 180deg 360deg
     )
     1 stretch;
   background: rgb(255 255 255 / var(--opacity));
