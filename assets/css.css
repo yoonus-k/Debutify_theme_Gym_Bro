@@ -136,9 +136,39 @@ concat us page Customize
 }
 /*
 ============================
-sonetel chat 
+Resposive
 =============================
 */
+@media only screen and (max-width: 2000px) {
+  div#SonetelWidget {
+    bottom: 5px !important;
+    right: 5px !important;
+  }
+  /* for whatsapp icon */
+  .whatsapp {
+    position: fixed;
+    top: 86%;
+    right: 5px;
+    height: 4rem;
+    width: 4rem;
+    z-index: 10000;
+  }
+}
+@media only screen and (max-width: 1271px) {
+  div#SonetelWidget {
+    bottom: 80px !important;
+    right: 30px !important;
+  }
+  /* for whatsapp icon */
+  .whatsapp {
+    position: fixed;
+    top: 78%;
+    right: 2rem;
+    height: 3.5rem;
+    width: 3.5rem;
+    z-index: 10000;
+  }
+}
 @media only screen and (max-width: 768px) {
   div#SonetelWidget {
     bottom: 60px !important;
@@ -153,36 +183,6 @@ sonetel chat
     width: 3.5rem;
     z-index: 10000;
   }
-}
-@media only screen and (max-width: 1200px) {
-  div#SonetelWidget {
-    bottom: 80px !important;
-    right: 30px !important;
-  }
-  /* for whatsapp icon */
-  .whatsapp {
-    position: fixed;
-    top: 78%;
-    right: 2rem;
-    height: 3.5rem;
-    width: 3.5rem;
-    z-index: 10000;
-}
-}
-@media only screen and (max-width: 2000px) {
-  div#SonetelWidget {
-    bottom: 5px !important;
-    right: 5px !important;
-  }
-  /* for whatsapp icon */
-  .whatsapp {
-    position: fixed;
-    top: 86%;
-    right: 5px;
-    height: 4rem;
-    width: 4rem;
-    z-index: 10000;
-}
 }
 
 /*
