@@ -184,6 +184,7 @@ sonetel chat
     z-index: 10000;
 }
 }
+
 /*
 ============================
 logos section
@@ -275,6 +276,6 @@ border animation
   }
 
   .logo-list-section .card-body {
-    animation: rotate 4s linear infinite, opacityChange 3s infinite alternate;
+    animation: rotate 4s ease infinite, opacityChange 3s infinite alternate;
   }
 }
