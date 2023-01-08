@@ -145,7 +145,7 @@ sonetel chat
     right: 5px !important;
   }
   /* for whatsapp icon */
-  a.whatsapp {
+  .whatsapp {
     position: fixed;
     top: 80%;
     right: 5px;
@@ -160,7 +160,7 @@ sonetel chat
     right: 30px !important;
   }
   /* for whatsapp icon */
-  a.whatsapp {
+  .whatsapp {
     position: fixed;
     top: 78%;
     right: 2rem;
@@ -175,7 +175,7 @@ sonetel chat
     right: 5px !important;
   }
   /* for whatsapp icon */
-  a.whatsapp {
+  .whatsapp {
     position: fixed;
     top: 86%;
     right: 5px;
