@@ -147,7 +147,7 @@ Resposive
   /* for whatsapp icon */
   .whatsapp {
     position: fixed;
-    top: 86%;
+    bottom: 80px;
     right: 5px;
     height: 4rem;
     width: 4rem;
@@ -162,7 +162,7 @@ Resposive
   /* for whatsapp icon */
   .whatsapp {
     position: fixed;
-    top: 78%;
+    bottom: 160px;
     right: 2rem;
     height: 3.5rem;
     width: 3.5rem;
@@ -177,7 +177,7 @@ Resposive
   /* for whatsapp icon */
   .whatsapp {
     position: fixed;
-    top: 80%;
+    bottom: 125px;
     right: 5px;
     height: 3.5rem;
     width: 3.5rem;
