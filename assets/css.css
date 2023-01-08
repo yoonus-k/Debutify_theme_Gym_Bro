@@ -145,7 +145,7 @@ Resposive
     right: 5px !important;
   }
   /* for whatsapp icon */
-  .whatsapp {
+  a.whatsapp {
     position: fixed;
     bottom: 80px;
     right: 5px;
@@ -160,7 +160,7 @@ Resposive
     right: 30px !important;
   }
   /* for whatsapp icon */
-  .whatsapp {
+  a.whatsapp {
     position: fixed;
     bottom: 160px;
     right: 2rem;
@@ -175,7 +175,7 @@ Resposive
     right: 5px !important;
   }
   /* for whatsapp icon */
-  .whatsapp {
+  a.whatsapp {
     position: fixed;
     bottom: 125px;
     right: 5px;
