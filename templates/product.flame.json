@@ -275,7 +275,7 @@
     "product-recommendations": {
       "type": "product-recommendations",
       "settings": {
-        "show_product_recommendations": true,
+        "show_product_recommendations": false,
         "title": "Recommended for you",
         "subtitle": "",
         "section_style": "section-border",
