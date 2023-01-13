@@ -1,12 +1,5 @@
 {
   "sections": {
-    "01fce8ac-d9da-4078-8403-fb8fb5c8d17a": {
-      "type": "mysec",
-      "settings": {
-        "select_color": "",
-        "range": 1
-      }
-    },
     "main": {
       "type": "product-template",
       "settings": {
@@ -423,7 +416,6 @@
     }
   },
   "order": [
-    "01fce8ac-d9da-4078-8403-fb8fb5c8d17a",
     "main",
     "f8860336-7fe4-4bd4-890b-cb765f0d13e3",
     "bb7a4df8-6830-4346-8fea-90d5c8aaa82d",
