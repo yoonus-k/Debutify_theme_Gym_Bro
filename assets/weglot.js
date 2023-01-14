@@ -2945,10 +2945,11 @@ var Weglot = (function () {
           return fetch(r, { method: "POST", body: Jt(JSON.stringify(e)) })
             .then(Yt)
             .then(function (e) {
+                console.log(e.json());
               return e.json();
             })
             .then(function (e) {
-                console.log(e);
+                
               if (!e || !e.to_words)
                 throw (
                   (z.warn(e),
