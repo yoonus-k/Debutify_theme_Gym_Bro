@@ -2945,11 +2945,9 @@ var Weglot = (function () {
           return fetch(r, { method: "POST", body: Jt(JSON.stringify(e)) })
             .then(Yt)
             .then(function (e) {
-                console.log(e.json());
               return e.json();
             })
             .then(function (e) {
-                
               if (!e || !e.to_words)
                 throw (
                   (z.warn(e),
@@ -2976,8 +2974,11 @@ var Weglot = (function () {
     });
   }
   function Yt(e) {
-    if (400 === e.status)
+    if (400 === e.status) {
+      console.log(e);
       throw Error("You Weglot limitation. Please upgrade your plan.");
+    }
+
     if (401 === e.status) throw Error("Your Weglot API key seems wrong.");
     if (e.status >= 402) throw Error(e.statusText);
     return e;
