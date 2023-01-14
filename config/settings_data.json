@@ -66,7 +66,7 @@
     "dbtfy_age_check": false,
     "dbtfy_agree_to_terms": false,
     "dbtfy_color_swatches_count": 4,
-    "supported_currencies": "USD SAR CAD GBP AUD EUR",
+    "supported_currencies": "USD SAR AED QAR CAD GBP AUD EUR",
     "dbtfy_newsletter_popup_exit_intent": false,
     "dbtfy_page_transition_svg": "ultra-tech.svg",
     "dbtfy_page_transition_width": 125,
