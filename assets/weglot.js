@@ -2976,7 +2976,7 @@ var Weglot = (function () {
   }
   function Yt(e) {
     if (400 === e.status)
-      throw Error("You reached Weglot limitation. Please upgrade your plan.");
+      throw Error("You Weglot limitation. Please upgrade your plan.");
     if (401 === e.status) throw Error("Your Weglot API key seems wrong.");
     if (e.status >= 402) throw Error(e.statusText);
     return e;
