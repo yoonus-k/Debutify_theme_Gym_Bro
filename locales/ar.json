@@ -13,5 +13,10 @@
     "product": {
       "quantity": "الكمية"
     }
+  },
+  "add-ons": {
+    "trust_badge": {
+      "text": "طرق دفع آمنة وسريعة"
+    }
   }
 }
