@@ -340,6 +340,9 @@
   {%- if shop.locale == 'ar' -%}
   const x= document.querySelector(".announcement-message");
   x.remove();
+  {% else %}
+  const x= document.querySelector(".announcement-message");
+  x.remove();
   {% endjavascript %}
   
 </body>
