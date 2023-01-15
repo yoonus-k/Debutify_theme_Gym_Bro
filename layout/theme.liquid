@@ -1,5 +1,10 @@
 <!doctype html>
-<html lang="{{ shop.locale }}" dir="ltr" class="test">
+     <!--to change dir -->
+  {%- if shop.locale == 'ar' -%}
+<html lang="{{ shop.locale }}" dir="rtl">
+{%- else -%}
+<html lang="{{ shop.locale }}" dir="ltr"">
+{% comment %}<html lang="{{ shop.locale }}" dir="ltr" class="test">{% endcomment %}
   <head>
  
 <!-- Google tag (gtag.js) -->
@@ -221,11 +226,7 @@
                  {% if customer %}customer-logged-in{% endif %}
                  template-{{ request.page_type | handle }}">
 
-     <!--to change dir -->
-  {%- if shop.locale == 'ar' -%}
-<html lang="{{ shop.locale }}" dir="rtl">
-{%- else -%}
-<html lang="{{ shop.locale }}" dir="ltr"">
+
 {%- endif -%}
   
     
