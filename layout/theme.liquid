@@ -5,7 +5,7 @@
 <html lang="{{ shop.locale }}" dir="rtl">
 {%- else -%}
 <html lang="{{ shop.locale }}" dir="ltr"">
-
+{%- endif -%}
   <head>
  
 <!-- Google tag (gtag.js) -->
@@ -228,7 +228,7 @@
                  template-{{ request.page_type | handle }}">
 
 
-{%- endif -%}
+
   
     
     {%- liquid
