@@ -15,7 +15,7 @@
     "show_date": false,
     "show_comments": false,
     "show_tags": false,
-    "show_locale_selector": false,
+    "show_locale_selector": true,
     "top_button_position": "center",
     "show_back_to_collection": false,
     "show_breadcrumbs_on_desktop": false,
