@@ -12,7 +12,9 @@
   "products": {
     "product": {
       "quantity": "الكمية",
-      "add_to_cart": "أضف للعربة"
+      "add_to_cart": "أضف للعربة",
+      "full_details": "التفاصيل كاملة",
+      "view_more": "مشاهدة المزيد"
     }
   },
   "add-ons": {
