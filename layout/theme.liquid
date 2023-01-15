@@ -202,7 +202,7 @@
     {{ "css.css" | asset_url | stylesheet_tag }}
 
 <!--Custom JavaScript File -------------------- -->
-    <script src="{{ 'java_script_custom.js' | asset_url }} " defer="defer"></script>
+   {% comment %} <script src="{{ 'java_script_custom.js' | asset_url }} " defer="defer"></script>{% endcomment %}
 
 
 {% comment %}{% render 'weglot_hreftags' %}{% endcomment %}
