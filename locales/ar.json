@@ -15,6 +15,9 @@
       "add_to_cart": "أضف للعربة",
       "full_details": "التفاصيل كاملة",
       "view_more": "مشاهدة المزيد"
+    },
+    "general": {
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> يتم احتساب رسوم الشحن عند الدفع"
     }
   },
   "add-ons": {
