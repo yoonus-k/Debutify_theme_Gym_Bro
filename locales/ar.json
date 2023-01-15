@@ -11,7 +11,8 @@
   },
   "products": {
     "product": {
-      "quantity": "الكمية"
+      "quantity": "الكمية",
+      "add_to_cart": "أضف للعربة"
     }
   },
   "add-ons": {
