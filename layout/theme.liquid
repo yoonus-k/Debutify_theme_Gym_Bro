@@ -1,6 +1,12 @@
 <!doctype html>
 <html lang="{{ shop.locale }}" dir="ltr" class="test">
   <head>
+  <!--to change dir -->
+  {%- if shop.locale == 'ar' -%}
+<html class="no-js" lang="{{ shop.locale }}" dir="rtl">
+{%- else -%}
+<html class="no-js" lang="{{ shop.locale }}" dir="ltr"">
+{%- endif -%}
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-7N3R5HD5X0"></script>
 <script>
