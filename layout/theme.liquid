@@ -332,7 +332,12 @@
     <img src="{{ 'whatsapp1.png' | asset_url }}">
   </a>
     
-  
+  <!-- custom script -->
+
+  {% javascript %}
+  {%- if shop.locale == 'ar' -%}
+  console.log("Heloo");
+  {% endjavascript %}
   
 </body>
 </html>
