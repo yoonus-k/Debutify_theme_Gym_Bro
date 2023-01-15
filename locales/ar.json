@@ -8,5 +8,62 @@
       "send": "إرسال",
       "post_success": "شكرا لإتصالك بنا. سنعود إليك في أقرب وقت ممكن."
     }
+  },
+  "products": {
+    "product": {
+      "quantity": "الكمية",
+      "add_to_cart": "أضف للعربة",
+      "full_details": "التفاصيل كاملة",
+      "view_more": "مشاهدة المزيد"
+    },
+    "general": {
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> يتم احتساب رسوم الشحن عند الدفع"
+    }
+  },
+  "add-ons": {
+    "trust_badge": {
+      "text": "طرق دفع آمنة وسريعة"
+    },
+    "cart_discount": {
+      "label": "الرمز الترويجي",
+      "placeholder": "أدخل الرمز الترويجي هنا"
+    },
+    "cart_savings": {
+      "label": "مجموع التوفير"
+    }
+  },
+  "cart": {
+    "general": {
+      "title": "السلة",
+      "subtotal": "المجموع الفرعي",
+      "taxes_and_shipping_at_checkout": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
+      "taxes_and_shipping_policy_at_checkout_html": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
+      "taxes_included_but_shipping_at_checkout": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
+      "taxes_included_and_shipping_policy_html": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
+      "update": "تحديث العربة",
+      "checkout": "مواصلة للدفع",
+      "empty": "العربة فارغة",
+      "continue_browsing_html": "مواصلةالتسوق",
+      "savings_html": "لقد وفرت {{ savings }}"
+    },
+    "label": {
+      "quantity": "الكمية",
+      "total": "الاجمالي"
+    },
+    "cart_message": {
+      "text": "تم إضافة المنتج للعربة",
+      "button_label": "مشاهدة العربة"
+    }
+  },
+  "layout": {
+    "cart": {
+      "title": "العربة"
+    },
+    "customer": {
+      "account": "حسابي",
+      "log_out": "تسجيل الخروج",
+      "log_in": "تسجيل الدخول",
+      "create_account": "إنشاء حساب"
+    }
   }
 }
