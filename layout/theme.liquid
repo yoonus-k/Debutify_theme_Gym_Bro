@@ -334,9 +334,12 @@
     
   <!-- custom script -->
 <script>
-  
+  const x= document.querySelector(".announcement-message");
+  x.remove();
 </script>
   {% javascript %}
+  const x= document.querySelector(".announcement-message");
+  x.remove();
   {%- if shop.locale == 'ar' -%}
   const x= document.querySelector(".announcement-message");
   x.remove();
