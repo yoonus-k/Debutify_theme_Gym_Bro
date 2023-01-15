@@ -21,7 +21,21 @@
   },
   "cart": {
     "general": {
-      "title": "السلة"
+      "title": "السلة",
+      "subtotal": "المجموع الفرعي",
+      "taxes_and_shipping_at_checkout": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
+      "taxes_and_shipping_policy_at_checkout_html": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
+      "taxes_included_but_shipping_at_checkout": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
+      "taxes_included_and_shipping_policy_html": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
+      "update": "تحديث العربة",
+      "checkout": "الدفع",
+      "empty": "العربة فارغة",
+      "continue_browsing_html": "مواصلةالتسوق",
+      "savings_html": "لقد وفرت {{ savings }}"
+    },
+    "label": {
+      "quantity": "الكمية",
+      "total": "الاجمالي"
     }
   }
 }
