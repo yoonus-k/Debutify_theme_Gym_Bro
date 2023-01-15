@@ -36,6 +36,10 @@
     "label": {
       "quantity": "الكمية",
       "total": "الاجمالي"
+    },
+    "cart_message": {
+      "text": "تم إضافة المنتج للعربة",
+      "button_label": "مشاهدة العربة"
     }
   }
 }
