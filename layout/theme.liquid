@@ -333,13 +333,17 @@
   </a>
     
   <!-- custom script -->
+  {% if condition %}
+    
+  {% endif shop.locale == 'ar' %}
 <script>
-  if (shop.locale == 'ar') {
-    console.log(hello);
-  }
-  
-
-</script>
+      console.log(hello);
+   </script>
+   {% else %}
+   <script>
+    console.log(english);
+ </script>
+ {%endif}
   
   
 </body>
