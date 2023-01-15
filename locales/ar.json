@@ -20,6 +20,13 @@
   "add-ons": {
     "trust_badge": {
       "text": "طرق دفع آمنة وسريعة"
+    },
+    "cart_discount": {
+      "label": "الرمز الترويجي",
+      "placeholder": "أدخل الرمز الترويجي هنا"
+    },
+    "cart_savings": {
+      "label": "مجموع التوفير"
     }
   },
   "cart": {
