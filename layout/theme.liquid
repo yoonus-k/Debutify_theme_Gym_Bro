@@ -335,15 +335,15 @@
   <!-- custom script -->
   
     
-  {% if shop.locale == 'ar' %}
+  {%- if shop.locale == 'ar' -%}
 <script>
       console.log(hello);
    </script>
-   {% else %}
+   {%- else -%}
    <script>
     console.log(english);
  </script>
- {%endif}
+ {%-endif-%}
   
   
 </body>
