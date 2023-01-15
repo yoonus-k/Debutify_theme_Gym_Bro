@@ -333,15 +333,13 @@
   </a>
     
   <!-- custom script -->
-
+<script>
+  
+</script>
   {% javascript %}
   {%- if shop.locale == 'ar' -%}
-  Hello
-  hello
-  Hello
-  hello
-  Hello
-  hello
+  const x= document.querySelector(".announcement-message");
+  x.remove();
   {% endjavascript %}
   
 </body>
