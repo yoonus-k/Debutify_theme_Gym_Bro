@@ -31,7 +31,7 @@
       "taxes_included_but_shipping_at_checkout": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
       "taxes_included_and_shipping_policy_html": "يتم إحتساب رسوم الشحن والضرائب عند الدفع",
       "update": "تحديث العربة",
-      "checkout": "الدفع",
+      "checkout": "مواصلة للدفع",
       "empty": "العربة فارغة",
       "continue_browsing_html": "مواصلةالتسوق",
       "savings_html": "لقد وفرت {{ savings }}"
