@@ -223,7 +223,7 @@
         </div>
 
         <!-- right icons -->
-        <div class="grid__item{% if nav_type == 'left' or nav_type == 'right' %} large--flex-auto{% else %} large--flex-fill{% endif %} medium--flex-fill small--flex-fill whitespace-nowrap text-right nav-containers nav-container-right-icons">
+        <div class="grid__item{% if nav_type == 'left' or nav_type == 'right' %} large--flex-auto{% else %} large--flex-fill{% endif %} medium--flex-fill small--flex-fill whitespace-nowrap{% if shop.locale == 'ar' %} text-left{% else %} text-right{% endif %} nav-containers nav-container-right-icons">
           <ul class="inner-nav-containers">
             {%- if shop.customer_accounts_enabled -%}
               <li class="site-nav__item">

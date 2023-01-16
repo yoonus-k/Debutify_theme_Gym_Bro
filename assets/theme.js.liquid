@@ -10451,3 +10451,9 @@ $(document).ready(function () {
   sections.register("announcement-section", theme.Announcement);
   sections.register("logo-list-section", theme.LogoList);
 });
+
+{%- if shop.locale == 'ar' -%}
+<html lang="{{ shop.locale }}" dir="rtl">
+{%- else -%}
+<html lang="{{ shop.locale }}" dir="ltr"">
+{%- endif -%}
