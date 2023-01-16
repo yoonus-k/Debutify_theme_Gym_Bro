@@ -1520,14 +1520,14 @@ $class-type: unquote(".");
     label {
         margin-bottom: 0;
 
-        &::before,
-        &::after {
+        &::after,
+        &::before {
             @include iconFontStack;
             font-size: $iconFontSize-md;
             line-height: $iconFontSize-md;
             position: absolute;
             top: 0;
-            left: auto;
+            left: 0;
             display: block;
         }
     }
