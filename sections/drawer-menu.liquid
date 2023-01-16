@@ -1,4 +1,4 @@
-<div id="NavDrawer" class="drawer drawer--left overlay-content" data-section-id="{{ section.id }}" data-section-type="drawer-menu-section" aria-hidden="true" tabindex="-1">
+<div id="NavDrawer" class="drawer{% if shop.locale =='ar' %} drawer--right{%else%} drawer--left{% endif %} overlay-content" data-section-id="{{ section.id }}" data-section-type="drawer-menu-section" aria-hidden="true" tabindex="-1">
   <div class="drawer__header">
     <div class="drawer__title">
       <span class="{{ settings.icon }}"
