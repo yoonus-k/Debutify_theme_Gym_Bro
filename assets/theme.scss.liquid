@@ -3699,7 +3699,12 @@ button {
     &::after {
         @include iconFontStack;
         content: "add";
-        margin-left: $spacer-sm;
+        {%- if shop.locale == 'ar' -%}
+        margin-left:auto;
+        {%- else -%}
+        margin-right:auto;
+        {%- endif -%}
+        // margin-left: $spacer-sm;
         @include flex-shrink(0);
     }
 
