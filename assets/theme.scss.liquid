@@ -1520,8 +1520,8 @@ $class-type: unquote(".");
     label {
         margin-bottom: 0;
 
-        
-        &::before {
+        &::before,
+        &::after {
             @include iconFontStack;
             font-size: $iconFontSize-md;
             line-height: $iconFontSize-md;
