@@ -3698,7 +3698,8 @@ button {
 
     &::after {
         @include iconFontStack;
-        content: "{{shop.locale.iso_code}}";
+        content: "{{locale
+        }}";
         {%- if shop.locale == 'ar' -%}
         margin-left:auto;
         {%- else -%}
