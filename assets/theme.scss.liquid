@@ -3698,7 +3698,7 @@ button {
 
     &::after {
         @include iconFontStack;
-        content: "{{settings.enable_product_accent_background}}";
+        content: "{{shopify.locale}}";
         {%- if shop.locale == 'ar' -%}
         margin-left:auto;
         {%- else -%}
