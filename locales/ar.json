@@ -18,7 +18,8 @@
     },
     "general": {
       "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> يتم احتساب رسوم الشحن عند الدفع",
-      "save_html": "خصم {{ saved_amount }}"
+      "save_html": "خصم {{ saved_amount }}",
+      "include_taxes": "شامل الضريبة"
     }
   },
   "add-ons": {
