@@ -17,7 +17,8 @@
       "view_more": "مشاهدة المزيد"
     },
     "general": {
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> يتم احتساب رسوم الشحن عند الدفع"
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> يتم احتساب رسوم الشحن عند الدفع",
+      "save_html": "خصم {{ saved_amount }}"
     }
   },
   "add-ons": {
