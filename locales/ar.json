@@ -188,7 +188,8 @@
         "card_verification_value_placeholder": "CVV\/CVC",
         "card_expiry_placeholder": "تاريخ انتهاء الصلاحية (MM \/ YY)",
         "billing_address_title": "عنوان الفوترة",
-        "billing_address_description": "حدد العنوان الذي يتطابق مع بطاقتك أو طريقة الدفع الخاصة بك."
+        "billing_address_description": "حدد العنوان الذي يتطابق مع بطاقتك أو طريقة الدفع الخاصة بك.",
+        "same_billing_address_label": "نفس عنوان الشحن"
       },
       "review": {
         "blocks": {
