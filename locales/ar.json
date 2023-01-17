@@ -80,7 +80,8 @@
         "email_or_phone_placeholder": "البريد الإلكتروني أو رقم الجوال",
         "shipping_address_title": "عنوان الشحن",
         "first_name_label": "الإسم الأول",
-        "optional_first_name_label": "الإسم الأول ( إختياري )"
+        "optional_first_name_label": "الإسم الأول ( إختياري )",
+        "last_name_label": "الإسم الأخير"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
