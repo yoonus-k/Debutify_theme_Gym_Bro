@@ -5,12 +5,18 @@
       "selection_help": "Press the space key then arrow keys to make a selection.",
       "unit_price_separator": "per"
     },
-    "meta": { "tags": "Tagged \"{{ tags }}\"", "page": "Page {{ page }}" },
+    "meta": {
+      "tags": "Tagged \"{{ tags }}\"",
+      "page": "Page {{ page }}"
+    },
     "404": {
       "title": "404 Page Not Found",
       "subtext_html": "The page you were looking for does not exist."
     },
-    "pagination": { "previous": "Previous", "next": "Next" },
+    "pagination": {
+      "previous": "Previous",
+      "next": "Next"
+    },
     "password_page": {
       "login_form_heading": "Enter store using password:",
       "login_form_password_label": "Password",
@@ -18,12 +24,16 @@
       "login_form_submit": "Enter",
       "signup_form_email_label": "Email",
       "signup_form_success": "We will send you an email right before we open!",
-      "admin_link_html": "Are you the store owner? <a href=\"/admin\" class=\"text-link\">Log in here</a>",
+      "admin_link_html": "Are you the store owner? <a href=\"\/admin\" class=\"text-link\">Log in here<\/a>",
       "password_link": "Enter using password",
       "powered_by_shopify_html": "This shop will be powered by {{ shopify }}",
       "close": "close (esc)"
     },
-    "dates": { "year": "Year", "month": "Month", "day": "Day" },
+    "dates": {
+      "year": "Year",
+      "month": "Month",
+      "day": "Day"
+    },
     "months": {
       "full": {
         "january": "January",
@@ -113,10 +123,18 @@
       "expand_submenu": "Expand submenu",
       "collapse_submenu": "Collapse submenu"
     },
-    "payment": { "method": "Payment methods" },
-    "currency": { "dropdown_label": "Currency" },
-    "language": { "dropdown_label": "Language" },
-    "localization": { "submit_label": "Update preferences" },
+    "payment": {
+      "method": "Payment methods"
+    },
+    "currency": {
+      "dropdown_label": "Currency"
+    },
+    "language": {
+      "dropdown_label": "Language"
+    },
+    "localization": {
+      "submit_label": "Update preferences"
+    },
     "trial_over": {
       "heading": "Your Free Trial has expired",
       "text": "Hi, {{ name }}. It looks like your 14-Day Enterprise Plan free trial already ended. That means all your Add-Ons are now disabled.\n\nBut you probably don't want to lose the conversion and revenue bump you got from your Add-Ons, right?\n\nChoose a plan that best fits your goals and continue to enjoy higher conversion rates.",
@@ -126,7 +144,7 @@
       "heading": "Woah! Easy There, Tiger!",
       "text": "Seems like you need more Add-Ons :)\n\nYour current plan [plan_name] activates up to [current_limit] Add-ons only. [upgraded_plan] allows you to activate [upgraded_limit] Add-ons. Upgrade your plan to unlock ALL Premium Features.",
       "upgrade_now": "Upgrade Now",
-      "note": "*Note: If more than [current_limit] Add-ons are selected, only the first [current_limit] Add-ons ticked are activated. <a href=\"https://help.debutify.com/en/articles/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">How do I disable excess Add-Ons?</a>"
+      "note": "*Note: If more than [current_limit] Add-ons are selected, only the first [current_limit] Add-ons ticked are activated. <a href=\"https:\/\/help.debutify.com\/en\/articles\/4656443-how-to-uninstall-an-add-on-in-debutify-3-0\" class=\"text-link\">How do I disable excess Add-Ons?<\/a>"
     }
   },
   "add-ons": {
@@ -159,10 +177,14 @@
       "text": "Don’t Miss Out!",
       "button_label": "Finish Your Purchase"
     },
-    "cart_savings": { "label": "Total savings" },
-    "collection_filters": { "label": "Filter" },
+    "cart_savings": {
+      "label": "Total savings"
+    },
+    "collection_filters": {
+      "label": "Filter"
+    },
     "cookie_box": {
-      "text_html": "<strong>Do you like cookies?</strong> 🍪 We use cookies to ensure you get the best experience on our website.",
+      "text_html": "<strong>Do you like cookies?<\/strong> 🍪 We use cookies to ensure you get the best experience on our website.",
       "button_label": "Accept cookies"
     },
     "delivery_date": {
@@ -171,7 +193,7 @@
       "error_message": "Make a selection to continue"
     },
     "gift_wrap": {
-      "checkbox_label": "Add a gift box/wrap",
+      "checkbox_label": "Add a gift box\/wrap",
       "text_field_label": "Gift message",
       "text_field_placeholder": "Write your gift message here..."
     },
@@ -179,7 +201,9 @@
       "first_message": "🔥 Don't forget this...",
       "second_message": "🔥 Come back!"
     },
-    "infinite_scroll": { "load_more": "Load more" },
+    "infinite_scroll": {
+      "load_more": "Load more"
+    },
     "inventory_quantity": {
       "prefix_text": "Only",
       "suffix_text": "left in stock",
@@ -227,7 +251,9 @@
       "tags_cell": "Tags",
       "short_description_cell": "Short Descriptions"
     },
-    "recently_viewed": { "heading": "Recently viewed" },
+    "recently_viewed": {
+      "heading": "Recently viewed"
+    },
     "smart_search": {
       "products_text": "Products",
       "collections_text": "Collections",
@@ -243,7 +269,9 @@
       "popup_success_text": "Copy the discount code below and paste it at checkout to get your discount!",
       "popup_button_label": "Apply discount code"
     },
-    "trust_badge": { "text": "Guaranteed safe & secure checkout" },
+    "trust_badge": {
+      "text": "Guaranteed safe & secure checkout"
+    },
     "wishlist": {
       "add_to_wishlist_text": "Add to Wish list",
       "remove_from_wishlist_text": "Remove from Wish list",
@@ -280,9 +308,9 @@
       "note": "Special instructions for seller",
       "subtotal": "Subtotal",
       "taxes_and_shipping_at_checkout": "Taxes and shipping calculated at checkout",
-      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping</a> calculated at checkout",
+      "taxes_and_shipping_policy_at_checkout_html": "Taxes and <a href=\"{{ link }}\">shipping<\/a> calculated at checkout",
       "taxes_included_but_shipping_at_checkout": "Tax included and shipping calculated at checkout",
-      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "taxes_included_and_shipping_policy_html": "Tax included. <a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "update": "Update Cart",
       "checkout": "Check Out",
       "empty": "Your cart is currently empty.",
@@ -292,9 +320,12 @@
       "reduce_quantity": "Reduce item quantity by one",
       "increase_quantity": "Increase item quantity by one",
       "cookies_required": "Enable cookies to use the shopping cart",
-      "custom_currency_html": "All orders are processed in {{ shopCurrency }}. While the content of your cart is currently displayed in <span class='selected-currency'></span>, you will checkout using {{ shopCurrency }} at the most current exchange rate."
+      "custom_currency_html": "All orders are processed in {{ shopCurrency }}. While the content of your cart is currently displayed in <span class='selected-currency'><\/span>, you will checkout using {{ shopCurrency }} at the most current exchange rate."
     },
-    "label": { "quantity": "Quantity", "total": "Total" },
+    "label": {
+      "quantity": "Quantity",
+      "total": "Total"
+    },
     "cart_message": {
       "text": "Item has been added",
       "button_label": "View Cart"
@@ -311,7 +342,9 @@
       "title_tags": "Filter by",
       "all_of_collection": "All {{ collection }}"
     },
-    "grid": { "button_label": "Shop now" }
+    "grid": {
+      "button_label": "Shop now"
+    }
   },
   "contact": {
     "form": {
@@ -349,9 +382,9 @@
       "address1": "Address1",
       "address2": "Address2",
       "city": "City",
-      "country": "Country/Region",
+      "country": "Country\/Region",
       "province": "Province",
-      "zip": "Postal/Zip Code",
+      "zip": "Postal\/Zip Code",
       "phone": "Phone",
       "set_default": "Set as default address",
       "add": "Add Address",
@@ -427,7 +460,7 @@
   },
   "home_page": {
     "slideshow": {
-      "navigation_instructions": "Use left/right arrows to navigate the slideshow or swipe left/right if using a mobile device",
+      "navigation_instructions": "Use left\/right arrows to navigate the slideshow or swipe left\/right if using a mobile device",
       "next_slide": "Next slide",
       "previous_slide": "Previous slide",
       "play": "Play slideshow",
@@ -446,19 +479,23 @@
     "map": {
       "address_error": "Error looking up that address",
       "address_no_results": "No results for that address",
-      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https://developers.google.com/maps/premium/usage-limits\">Premium Plan</a>.",
+      "address_query_limit_html": "You have exceeded the Google API usage limit. Consider upgrading to a <a href=\"https:\/\/developers.google.com\/maps\/premium\/usage-limits\">Premium Plan<\/a>.",
       "auth_error_html": "There was a problem authenticating your Google Maps account."
     }
   },
   "layout": {
-    "cart": { "title": "Cart" },
+    "cart": {
+      "title": "Cart"
+    },
     "customer": {
       "account": "Account",
       "log_out": "Log Out",
       "log_in": "Log In",
       "create_account": "Create Account"
     },
-    "footer": { "social_platform": "{{ name }} on {{ platform }}" }
+    "footer": {
+      "social_platform": "{{ name }} on {{ platform }}"
+    }
   },
   "products": {
     "general": {
@@ -467,7 +504,7 @@
       "sale_price": "Sale price",
       "regular_price": "Regular price",
       "include_taxes": "Tax included.",
-      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping</a> calculated at checkout.",
+      "shipping_policy_html": "<a href=\"{{ link }}\">Shipping<\/a> calculated at checkout.",
       "unit_price": "Unit price"
     },
     "product": {
@@ -505,5 +542,7 @@
       "add_to_apple_wallet": "Add to Apple Wallet"
     }
   },
-  "date_formats": { "month_day_year": "%a %b %d" }
+  "date_formats": {
+    "month_day_year": "%a %b %d"
+  }
 }

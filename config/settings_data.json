@@ -23,6 +23,7 @@
     "show_social_media_on_desktop": false,
     "enable_payment_button": true,
     "enable_more_payment_options_button": false,
+    "buy_now_text": "Buy is now",
     "cart_notes_enable": false,
     "cart_type": "drawer",
     "color_announcement_bg": "#360c7b",
