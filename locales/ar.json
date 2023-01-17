@@ -142,7 +142,8 @@
       "general": {
         "continue_to_shipping_method": "مواصلة للشحن",
         "back_to_shipping_method": "العودة إلى الشحن",
-        "back_to_cart": "العودة للسلة"
+        "back_to_cart": "العودة للسلة",
+        "cart": "العربة"
       },
       "shipping": {
         "shipping_line_phone_label": "البريد الإلكتروني أو رقم الجوال (مطلوب)",
