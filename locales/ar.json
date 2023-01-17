@@ -118,7 +118,8 @@
         "discount_placeholder": "كود الخصم",
         "remove_discount_label": "إزالة الخصم",
         "collapse_order_summary": "إخفاء ملخص الطلب",
-        "free_total_label": "مجاناً"
+        "free_total_label": "مجاناً",
+        "subtotal_label": "الإجمالي"
       },
       "delivery_options": {
         "shipping_address": "عنوان الشحن",
