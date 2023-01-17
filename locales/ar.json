@@ -111,6 +111,9 @@
         "fraud_payment_errors": {
           "address_mismatch": "عنوان الشارع والرمز البريدي غير متطابقين."
         }
+      },
+      "customer_account": {
+        "save_my_information_label": "احفظ هذه المعلومات للمرة القادمة"
       }
     },
     "addresses": {
