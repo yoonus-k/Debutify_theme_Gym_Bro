@@ -176,7 +176,8 @@
       "review": {
         "blocks": {
           "contact_method_title": "التواصل",
-          "change_contact_method_link_label": "تغيير معلومات التواصل"
+          "change_contact_method_link_label": "تغيير معلومات التواصل",
+          "shipping_address_title": "الشحن إلى"
         }
       },
       "shop_policies": {
