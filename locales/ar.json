@@ -189,7 +189,8 @@
         "card_expiry_placeholder": "تاريخ انتهاء الصلاحية (MM \/ YY)",
         "billing_address_title": "عنوان الفوترة",
         "billing_address_description": "حدد العنوان الذي يتطابق مع بطاقتك أو طريقة الدفع الخاصة بك.",
-        "same_billing_address_label": "نفس عنوان الشحن"
+        "same_billing_address_label": "نفس عنوان الشحن",
+        "different_billing_address_label": "استخدم عنوان فوترة مختلف"
       },
       "review": {
         "blocks": {
