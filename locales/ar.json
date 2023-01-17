@@ -72,5 +72,12 @@
     "newsletter_form": {
       "submit": "إشتراك"
     }
+  },
+  "shopify": {
+    "checkout": {
+      "contact": {
+        "contact_method_title": "معلومات التواصل"
+      }
+    }
   }
 }
