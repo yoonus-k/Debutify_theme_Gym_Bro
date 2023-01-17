@@ -78,7 +78,9 @@
       "contact": {
         "contact_method_title": "معلومات التواصل",
         "email_or_phone_placeholder": "البريد الإلكتروني أو رقم الجوال",
-        "shipping_address_title": "عنوان الشحن"
+        "shipping_address_title": "عنوان الشحن",
+        "first_name_label": "الإسم الأول",
+        "optional_first_name_label": "الإسم الأول ( إختياري )"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
