@@ -187,11 +187,18 @@
           "contact_method_title": "التواصل",
           "change_contact_method_link_label": "تغيير معلومات التواصل",
           "shipping_address_title": "الشحن إلى",
-          "change_link_label": "تغيير"
+          "change_link_label": "تغيير",
+          "shipping_method_title": "وسيلة الشحن",
+          "payment_method_title": "الدفع",
+          "change_shipping_method_link_label": "تغيير وسيلة الشحن",
+          "change_payment_method_link_label": "تغيير وسيلة الدفع"
         }
       },
       "shop_policies": {
         "contact_information": "معلومات التواصل"
+      },
+      "thank_you": {
+        "shipping_method_title": "وسيلة الشحن"
       }
     },
     "addresses": {
