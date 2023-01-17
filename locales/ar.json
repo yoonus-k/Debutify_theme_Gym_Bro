@@ -116,10 +116,12 @@
         "discount_label": "كود الخصم",
         "discount_placeholder": "كود الخصم",
         "remove_discount_label": "إزالة الخصم",
-        "collapse_order_summary": "إخفاء ملخص الطلب"
+        "collapse_order_summary": "إخفاء ملخص الطلب",
+        "free_total_label": "مجاناً"
       },
       "delivery_options": {
-        "shipping_address": "عنوان الشحن"
+        "shipping_address": "عنوان الشحن",
+        "free_total_label": "مجاناً"
       },
       "field_errors": {
         "address_city_blank": "أدخل مدينة",
@@ -144,7 +146,8 @@
       },
       "shipping": {
         "shipping_line_phone_label": "البريد الإلكتروني أو رقم الجوال (مطلوب)",
-        "shipping_line_delivery_phone_label": "رقم الجوال"
+        "shipping_line_delivery_phone_label": "رقم الجوال",
+        "free_rate_label": "مجاناً"
       },
       "remember_me": {
         "mobile_phone_number": "رقم الجوال"
@@ -156,7 +159,8 @@
         "return_to_cart_button_label": "العودة للسلة"
       },
       "payment_summary": {
-        "express_payment_gateway_label": "الدفع السريع"
+        "express_payment_gateway_label": "الدفع السريع",
+        "free_label": "مجاناً"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "الدفع السريع"
