@@ -93,7 +93,8 @@
         "country_label": "البلد \/ المنطقة",
         "country_code": "رمز البلد \/ المنطقة ",
         "county_label": "البلد",
-        "county_placeholder": "البلد"
+        "county_placeholder": "البلد",
+        "title": "المعلومات"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
