@@ -114,6 +114,10 @@
       },
       "customer_account": {
         "save_my_information_label": "احفظ هذه المعلومات للمرة القادمة"
+      },
+      "general": {
+        "continue_to_shipping_method": "مواصلة للشحن",
+        "back_to_shipping_method": "العودة إلى الشحن"
       }
     },
     "addresses": {
