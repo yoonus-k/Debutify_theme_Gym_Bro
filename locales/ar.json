@@ -115,7 +115,8 @@
         "discount_title": "الخصم",
         "discount_label": "كود الخصم",
         "discount_placeholder": "كود الخصم",
-        "remove_discount_label": "إزالة الخصم"
+        "remove_discount_label": "إزالة الخصم",
+        "collapse_order_summary": "إخفاء ملخص الطلب"
       },
       "delivery_options": {
         "shipping_address": "عنوان الشحن"
