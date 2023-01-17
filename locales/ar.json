@@ -179,7 +179,8 @@
       },
       "payment": {
         "title": "الدفع",
-        "card_change_label": "تغيير"
+        "card_change_label": "تغيير",
+        "card_security_notice": "جميع المعاملات آمنة ومشفرة."
       },
       "review": {
         "blocks": {
