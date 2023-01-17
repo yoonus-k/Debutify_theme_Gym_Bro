@@ -133,7 +133,8 @@
         "address_zip_invalid_for_country": "أدخل رمزًا بريديًا صالحًا لـ٪ {country}",
         "address_zip_invalid_for_country_and_province": "أدخل رمزًا بريديًا صالحًا لـ٪ {County}،٪ {country}",
         "email_or_phone_blank": " أدخل البريد الإلكتروني أو رقم الجوال ",
-        "email_or_phone_invalid": " أدخل البريد الإلكتروني أو رقم الجوال "
+        "email_or_phone_invalid": " أدخل البريد الإلكتروني أو رقم الجوال ",
+        "credit_card_number_invalid": "أدخل رقم بطاقة صحيح"
       },
       "payment_errors": {
         "fraud_payment_errors": {
@@ -180,7 +181,9 @@
       "payment": {
         "title": "الدفع",
         "card_change_label": "تغيير",
-        "card_security_notice": "جميع المعاملات آمنة ومشفرة."
+        "card_security_notice": "جميع المعاملات آمنة ومشفرة.",
+        "card_number_label": "رقم البطاقة",
+        "card_number_placeholder": "رقم البطاقة"
       },
       "review": {
         "blocks": {
