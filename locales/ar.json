@@ -152,7 +152,8 @@
         "shipping_line_phone_label": "البريد الإلكتروني أو رقم الجوال (مطلوب)",
         "shipping_line_delivery_phone_label": "رقم الجوال",
         "free_rate_label": "مجاناً",
-        "title": "الشحن"
+        "title": "الشحن",
+        "shipping_method_title": "وسيلة الشحن"
       },
       "remember_me": {
         "mobile_phone_number": "رقم الجوال"
