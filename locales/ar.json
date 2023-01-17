@@ -76,7 +76,8 @@
   "shopify": {
     "checkout": {
       "contact": {
-        "contact_method_title": "معلومات التواصل"
+        "contact_method_title": "معلومات التواصل",
+        "email_or_phone_placeholder": "البريد الإلكتروني أو رقم الجوال"
       }
     }
   }
