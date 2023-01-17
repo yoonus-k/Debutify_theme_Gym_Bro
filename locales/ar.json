@@ -153,6 +153,12 @@
       },
       "failed_payment": {
         "return_to_cart_button_label": "العودة للسلة"
+      },
+      "payment_summary": {
+        "express_payment_gateway_label": "الدفع السريع"
+      },
+      "alternative_payment_method_banner": {
+        "express_checkout": "الدفع السريع"
       }
     },
     "addresses": {
