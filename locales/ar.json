@@ -86,7 +86,9 @@
         "address1_label": "العنوان",
         "address2_label": "شقة ، جناح ، إلخ.",
         "optional_address2_label": "شقة ، جناح ، إلخ (اختياري)",
-        "city_label": "المدينة"
+        "city_label": "المدينة",
+        "postal_code_label": "الرمز البريدي",
+        "postal_code_placeholder": "الرمز البريدي"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
@@ -100,8 +102,19 @@
         "shipping_address": "عنوان الشحن"
       },
       "field_errors": {
-        "address_city_blank": "أدخل مدينة"
+        "address_city_blank": "أدخل مدينة",
+        "address_zip_blank": "أدخل الرمز البريدي \/ صندوق البريد",
+        "address_zip_invalid_for_country": "أدخل رمزًا بريديًا صالحًا لـ٪ {country}",
+        "address_zip_invalid_for_country_and_province": "أدخل رمزًا بريديًا صالحًا لـ٪ {County}،٪ {country}"
+      },
+      "payment_errors": {
+        "fraud_payment_errors": {
+          "address_mismatch": "عنوان الشارع والرمز البريدي غير متطابقين."
+        }
       }
+    },
+    "addresses": {
+      "postal_code": "الرمز البريدي"
     }
   }
 }
