@@ -138,7 +138,8 @@
       },
       "general": {
         "continue_to_shipping_method": "مواصلة للشحن",
-        "back_to_shipping_method": "العودة إلى الشحن"
+        "back_to_shipping_method": "العودة إلى الشحن",
+        "back_to_cart": "العودة للسلة"
       },
       "shipping": {
         "shipping_line_phone_label": "البريد الإلكتروني أو رقم الجوال (مطلوب)",
@@ -146,6 +147,12 @@
       },
       "remember_me": {
         "mobile_phone_number": "رقم الجوال"
+      },
+      "stock": {
+        "go_back_to_cart_button_label": "الرجوع للسلة"
+      },
+      "failed_payment": {
+        "return_to_cart_button_label": "العودة للسلة"
       }
     },
     "addresses": {
