@@ -150,7 +150,8 @@
         "authenticate_purchase_button_label": "مصادقة الدفع",
         "continue_to_payment_method": "المواصلة للدفع",
         "back_to_payment_method": "الرجوع للدفع",
-        "choose_payment_method": "اختر طريقة الدفع"
+        "choose_payment_method": "اختر طريقة الدفع",
+        "back_to_contact_information": "العودة للعنوان"
       },
       "shipping": {
         "shipping_line_phone_label": "البريد الإلكتروني أو رقم الجوال (مطلوب)",
