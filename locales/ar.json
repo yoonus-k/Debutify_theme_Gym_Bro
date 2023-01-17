@@ -77,13 +77,16 @@
     "checkout": {
       "contact": {
         "contact_method_title": "معلومات التواصل",
-        "email_or_phone_placeholder": "البريد الإلكتروني أو رقم الجوال"
+        "email_or_phone_placeholder": "البريد الإلكتروني أو رقم الجوال",
+        "shipping_address_title": "عنوان الشحن"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
       },
       "order_summary": {
-        "expand_order_summary": "عرض تفاصيل الطلب"
+        "expand_order_summary": "عرض تفاصيل الطلب",
+        "free_shipping_discount_label": "شحن مجاني",
+        "applied_free_shipping_discount_label": "تم التطبيق"
       }
     }
   }
