@@ -186,7 +186,8 @@
         "card_number_placeholder": "رقم البطاقة",
         "card_verification_value_label": "CVV\/CVC",
         "card_verification_value_placeholder": "CVV\/CVC",
-        "card_expiry_placeholder": "تاريخ انتهاء الصلاحية (MM \/ YY)"
+        "card_expiry_placeholder": "تاريخ انتهاء الصلاحية (MM \/ YY)",
+        "billing_address_title": "عنوان الفوترة"
       },
       "review": {
         "blocks": {
