@@ -143,7 +143,8 @@
         "credit_card_number_invalid": "أدخل رقم بطاقة صحيح",
         "credit_card_name_blank": "أدخل اسمك تمامًا كما هو مكتوب على بطاقتك",
         "credit_card_name_invalid": "أدخل اسمك تمامًا كما هو مكتوب على بطاقتك",
-        "credit_card_expiry_invalid": "أدخل تاريخ انتهاء صالح للبطاقة"
+        "credit_card_expiry_invalid": "أدخل تاريخ انتهاء صالح للبطاقة",
+        "credit_card_verification_value_blank": "أدخل رمز التحقق من البطاقة (CVV) أو رمز الحماية الموجود على بطاقتك"
       },
       "payment_errors": {
         "fraud_payment_errors": {
