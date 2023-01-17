@@ -146,7 +146,11 @@
         "continue_to_shipping_method": "مواصلة للشحن",
         "back_to_shipping_method": "العودة إلى الشحن",
         "back_to_cart": "العودة للسلة",
-        "cart": "العربة"
+        "cart": "العربة",
+        "authenticate_purchase_button_label": "مصادقة الدفع",
+        "continue_to_payment_method": "المواصلة للدفع",
+        "back_to_payment_method": "الرجوع للدفع",
+        "choose_payment_method": "اختر طريقة الدفع"
       },
       "shipping": {
         "shipping_line_phone_label": "البريد الإلكتروني أو رقم الجوال (مطلوب)",
