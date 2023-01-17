@@ -81,7 +81,11 @@
         "shipping_address_title": "عنوان الشحن",
         "first_name_label": "الإسم الأول",
         "optional_first_name_label": "الإسم الأول ( إختياري )",
-        "last_name_label": "الإسم الأخير"
+        "last_name_label": "الإسم الأخير",
+        "address_title": "العنوان",
+        "address1_label": "العنوان",
+        "address2_label": "شقة ، جناح ، إلخ.",
+        "optional_address2_label": "شقة ، جناح ، إلخ (اختياري)"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
@@ -90,6 +94,9 @@
         "expand_order_summary": "عرض تفاصيل الطلب",
         "free_shipping_discount_label": "شحن مجاني",
         "applied_free_shipping_discount_label": "تم التطبيق"
+      },
+      "delivery_options": {
+        "shipping_address": "عنوان الشحن"
       }
     }
   }
