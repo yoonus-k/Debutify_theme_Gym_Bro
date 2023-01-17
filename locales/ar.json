@@ -167,6 +167,9 @@
       },
       "alternative_payment_method_banner": {
         "express_checkout": "الدفع السريع"
+      },
+      "payment": {
+        "title": "الدفع"
       }
     },
     "addresses": {
