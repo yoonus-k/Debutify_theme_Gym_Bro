@@ -199,6 +199,9 @@
       },
       "thank_you": {
         "shipping_method_title": "وسيلة الشحن"
+      },
+      "payment_gateway": {
+        "credit_card_label": "بطاقة ائتمان"
       }
     },
     "addresses": {
