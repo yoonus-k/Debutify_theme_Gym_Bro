@@ -199,7 +199,8 @@
         "billing_address_title": "عنوان الفوترة",
         "billing_address_description": "حدد العنوان الذي يتطابق مع بطاقتك أو طريقة الدفع الخاصة بك.",
         "same_billing_address_label": "نفس عنوان الشحن",
-        "different_billing_address_label": "استخدم عنوان فوترة مختلف"
+        "different_billing_address_label": "استخدم عنوان فوترة مختلف",
+        "card_verification_value_explanation": "عادة ما يتم العثور على رمز أمان مكون من 3 أرقام على ظهر بطاقتك. تحتوي بطاقات American Express على رمز مكون من 4 أرقام موجود في المقدمة."
       },
       "review": {
         "blocks": {
