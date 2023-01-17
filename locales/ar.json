@@ -120,7 +120,8 @@
         "collapse_order_summary": "إخفاء ملخص الطلب",
         "free_total_label": "مجاناً",
         "subtotal_label": "الإجمالي",
-        "partial_total_label": "الإجمالي الكلي"
+        "partial_total_label": "الإجمالي الكلي",
+        "product_change_label": "تغيير"
       },
       "delivery_options": {
         "shipping_address": "عنوان الشحن",
@@ -177,13 +178,15 @@
         "express_checkout": "الدفع السريع"
       },
       "payment": {
-        "title": "الدفع"
+        "title": "الدفع",
+        "card_change_label": "تغيير"
       },
       "review": {
         "blocks": {
           "contact_method_title": "التواصل",
           "change_contact_method_link_label": "تغيير معلومات التواصل",
-          "shipping_address_title": "الشحن إلى"
+          "shipping_address_title": "الشحن إلى",
+          "change_link_label": "تغيير"
         }
       },
       "shop_policies": {
