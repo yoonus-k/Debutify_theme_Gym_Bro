@@ -140,7 +140,9 @@
         "address_zip_invalid_for_country_and_province": "أدخل رمزًا بريديًا صالحًا لـ٪ {County}،٪ {country}",
         "email_or_phone_blank": " أدخل البريد الإلكتروني أو رقم الجوال ",
         "email_or_phone_invalid": " أدخل البريد الإلكتروني أو رقم الجوال ",
-        "credit_card_number_invalid": "أدخل رقم بطاقة صحيح"
+        "credit_card_number_invalid": "أدخل رقم بطاقة صحيح",
+        "credit_card_name_blank": "أدخل اسمك تمامًا كما هو مكتوب على بطاقتك",
+        "credit_card_name_invalid": "أدخل اسمك تمامًا كما هو مكتوب على بطاقتك"
       },
       "payment_errors": {
         "fraud_payment_errors": {
