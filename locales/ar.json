@@ -105,7 +105,8 @@
         "information_estimated_taxes_label": "الضرائب المقدرة",
         "estimated_taxes_finalization_tooltip_content": "سيتم تأكيد الضريبة النهائية والإجمالي عن طريق البريد الإلكتروني أو الرسائل النصية بعد تقديم طلبك.",
         "order_total_label": "المبلغ الإجمالي للطلب",
-        "total_label": "الإجمالي"
+        "total_label": "الإجمالي",
+        "shipping_default_value": "يتم حسابه في الخطوة التالية"
       },
       "delivery_options": {
         "shipping_address": "عنوان الشحن"
