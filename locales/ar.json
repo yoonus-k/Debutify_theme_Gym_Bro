@@ -217,7 +217,8 @@
         "contact_information": "معلومات التواصل",
         "terms_of_service": "شروط الخدمة",
         "privacy_policy": "سياسة الخصوصية",
-        "shipping_policy": "سياسة الشحن"
+        "shipping_policy": "سياسة الشحن",
+        "refund_policy": "سياسة الاسترجاع"
       },
       "thank_you": {
         "shipping_method_title": "وسيلة الشحن"
