@@ -85,7 +85,8 @@
         "address_title": "العنوان",
         "address1_label": "العنوان",
         "address2_label": "شقة ، جناح ، إلخ.",
-        "optional_address2_label": "شقة ، جناح ، إلخ (اختياري)"
+        "optional_address2_label": "شقة ، جناح ، إلخ (اختياري)",
+        "city_label": "المدينة"
       },
       "marketing": {
         "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
@@ -97,6 +98,9 @@
       },
       "delivery_options": {
         "shipping_address": "عنوان الشحن"
+      },
+      "field_errors": {
+        "address_city_blank": "أدخل مدينة"
       }
     }
   }
