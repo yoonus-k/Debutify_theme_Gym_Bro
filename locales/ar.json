@@ -172,6 +172,15 @@
       },
       "payment": {
         "title": "الدفع"
+      },
+      "review": {
+        "blocks": {
+          "contact_method_title": "التواصل",
+          "change_contact_method_link_label": "تغيير معلومات التواصل"
+        }
+      },
+      "shop_policies": {
+        "contact_information": "معلومات التواصل"
       }
     },
     "addresses": {
