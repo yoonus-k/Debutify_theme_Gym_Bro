@@ -78,6 +78,9 @@
       "contact": {
         "contact_method_title": "معلومات التواصل",
         "email_or_phone_placeholder": "البريد الإلكتروني أو رقم الجوال"
+      },
+      "marketing": {
+        "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
       }
     }
   }
