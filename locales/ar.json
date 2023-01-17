@@ -67,5 +67,10 @@
       "log_in": "تسجيل الدخول",
       "create_account": "إنشاء حساب"
     }
+  },
+  "general": {
+    "newsletter_form": {
+      "submit": "إشتراك"
+    }
   }
 }
