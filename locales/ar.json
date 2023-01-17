@@ -183,7 +183,9 @@
         "card_change_label": "تغيير",
         "card_security_notice": "جميع المعاملات آمنة ومشفرة.",
         "card_number_label": "رقم البطاقة",
-        "card_number_placeholder": "رقم البطاقة"
+        "card_number_placeholder": "رقم البطاقة",
+        "card_verification_value_label": "CVV\/CVC",
+        "card_verification_value_placeholder": "CVV\/CVC"
       },
       "review": {
         "blocks": {
