@@ -142,7 +142,8 @@
         "email_or_phone_invalid": " أدخل البريد الإلكتروني أو رقم الجوال ",
         "credit_card_number_invalid": "أدخل رقم بطاقة صحيح",
         "credit_card_name_blank": "أدخل اسمك تمامًا كما هو مكتوب على بطاقتك",
-        "credit_card_name_invalid": "أدخل اسمك تمامًا كما هو مكتوب على بطاقتك"
+        "credit_card_name_invalid": "أدخل اسمك تمامًا كما هو مكتوب على بطاقتك",
+        "credit_card_expiry_invalid": "أدخل تاريخ انتهاء صالح للبطاقة"
       },
       "payment_errors": {
         "fraud_payment_errors": {
