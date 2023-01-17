@@ -96,7 +96,16 @@
       "order_summary": {
         "expand_order_summary": "عرض تفاصيل الطلب",
         "free_shipping_discount_label": "شحن مجاني",
-        "applied_free_shipping_discount_label": "تم التطبيق"
+        "applied_free_shipping_discount_label": "تم التطبيق",
+        "shipping_label": "الشحن",
+        "calculating_shipping": "يتم الحساب",
+        "shipping_policy_link": "تكاليف الشحن",
+        "taxes_label": "الضرائب",
+        "estimated_taxes_label": "الضرائب المقدرة",
+        "information_estimated_taxes_label": "الضرائب المقدرة",
+        "estimated_taxes_finalization_tooltip_content": "سيتم تأكيد الضريبة النهائية والإجمالي عن طريق البريد الإلكتروني أو الرسائل النصية بعد تقديم طلبك.",
+        "order_total_label": "المبلغ الإجمالي للطلب",
+        "total_label": "الإجمالي"
       },
       "delivery_options": {
         "shipping_address": "عنوان الشحن"
