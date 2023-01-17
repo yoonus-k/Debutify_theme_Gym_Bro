@@ -97,7 +97,12 @@
         "title": "العنوان"
       },
       "marketing": {
-        "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات"
+        "accept_marketing_checkbox_label": "أطلعني على أحدث العروض والمنتجات",
+        "sms": {
+          "disclaimer": {
+            "terms_of_service": "شروط الخدمة"
+          }
+        }
       },
       "order_summary": {
         "expand_order_summary": "عرض تفاصيل الطلب",
@@ -164,7 +169,8 @@
         "shipping_method_title": "وسيلة الشحن"
       },
       "remember_me": {
-        "mobile_phone_number": "رقم الجوال"
+        "mobile_phone_number": "رقم الجوال",
+        "terms_of_service": "شروط الخدمة"
       },
       "stock": {
         "go_back_to_cart_button_label": "الرجوع للسلة"
@@ -206,7 +212,8 @@
         }
       },
       "shop_policies": {
-        "contact_information": "معلومات التواصل"
+        "contact_information": "معلومات التواصل",
+        "terms_of_service": "شروط الخدمة"
       },
       "thank_you": {
         "shipping_method_title": "وسيلة الشحن"
