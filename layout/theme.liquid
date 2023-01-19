@@ -106,7 +106,7 @@
     -%}
 
     <!-- Preload assets -->
-    {%- if shop.locale =='ar' -%}
+    {%- if shop.locale == 'ar' -%}
     <link rel="preload" href="{{ "theme-ar.scss.css" | asset_url }}" as="style">
     {%- else -%}
     <link rel="preload" href="{{ "theme.scss.css" | asset_url }}" as="style">
@@ -147,7 +147,7 @@
     {%- render "social-meta-tags" -%}
 
     <!-- CSS  -->
-    {%- if shop.locale =='ar' -%}
+    {%- if shop.locale == 'ar' -%}
     {{ "theme-ar.scss.css" | asset_url | stylesheet_tag }}
     {%- else -%}
     {{ "theme.scss.css" | asset_url | stylesheet_tag }}
