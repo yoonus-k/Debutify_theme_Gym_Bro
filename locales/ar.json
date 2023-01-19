@@ -246,5 +246,20 @@
     "attributes": {
       "first_name": "الاسم الأول"
     }
+  },
+  "customer_accounts": {
+    "account_information": {
+      "profile_card": {
+        "first_name": "الإسم الأول"
+      }
+    }
+  },
+  "customer": {
+    "addresses": {
+      "first_name": "الإسم الأول"
+    },
+    "register": {
+      "first_name": "الإسم الأول"
+    }
   }
 }
