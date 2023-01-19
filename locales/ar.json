@@ -242,6 +242,9 @@
     },
     "addresses": {
       "postal_code": "الرمز البريدي"
+    },
+    "attributes": {
+      "first_name": "الاسم الأول"
     }
   }
 }
