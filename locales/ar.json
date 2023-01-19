@@ -191,7 +191,8 @@
       },
       "payment_summary": {
         "express_payment_gateway_label": "الدفع السريع",
-        "free_label": "مجاناً"
+        "free_label": "مجاناً",
+        "billing_address_title": "عنوان الفوترة"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "الدفع السريع"
@@ -221,7 +222,9 @@
           "shipping_method_title": "وسيلة الشحن",
           "payment_method_title": "الدفع",
           "change_shipping_method_link_label": "تغيير وسيلة الشحن",
-          "change_payment_method_link_label": "تغيير وسيلة الدفع"
+          "change_payment_method_link_label": "تغيير وسيلة الدفع",
+          "billing_address_title": "الفوترة",
+          "change_billing_address_link_label": "تغيير عنوان الفوترة"
         }
       },
       "shop_policies": {
@@ -245,7 +248,8 @@
         "marker": {
           "shipping": "عنوان الشحن"
         },
-        "payment_method_title": "وسيلة الدفع"
+        "payment_method_title": "وسيلة الدفع",
+        "billing_address_title": "عنوان الفوترة"
       },
       "payment_gateway": {
         "credit_card_label": "بطاقة ائتمان"
