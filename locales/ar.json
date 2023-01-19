@@ -249,7 +249,8 @@
           "shipping": "عنوان الشحن"
         },
         "payment_method_title": "وسيلة الدفع",
-        "billing_address_title": "عنوان الفوترة"
+        "billing_address_title": "عنوان الفوترة",
+        "return_to_store_link_label": "متابعة التسوق"
       },
       "payment_gateway": {
         "credit_card_label": "بطاقة ائتمان"
