@@ -31,7 +31,7 @@
       "placeholder": "أدخل الرمز الترويجي هنا"
     },
     "cart_savings": {
-      "label": "مجموع التوفير"
+      "label": "التوفير"
     },
     "order_tracking": {
       "input_placeholder": "أدخل رقم التتبع...",
@@ -191,7 +191,8 @@
       },
       "payment_summary": {
         "express_payment_gateway_label": "الدفع السريع",
-        "free_label": "مجاناً"
+        "free_label": "مجاناً",
+        "billing_address_title": "عنوان الفوترة"
       },
       "alternative_payment_method_banner": {
         "express_checkout": "الدفع السريع"
@@ -221,7 +222,9 @@
           "shipping_method_title": "وسيلة الشحن",
           "payment_method_title": "الدفع",
           "change_shipping_method_link_label": "تغيير وسيلة الشحن",
-          "change_payment_method_link_label": "تغيير وسيلة الدفع"
+          "change_payment_method_link_label": "تغيير وسيلة الدفع",
+          "billing_address_title": "الفوترة",
+          "change_billing_address_link_label": "تغيير عنوان الفوترة"
         }
       },
       "shop_policies": {
@@ -232,7 +235,25 @@
         "refund_policy": "سياسة الاسترجاع"
       },
       "thank_you": {
-        "shipping_method_title": "وسيلة الشحن"
+        "shipping_method_title": "وسيلة الشحن",
+        "page_title_no_name": "شكرًا لك على تسوقك معنا !",
+        "thank_you_title": "تم تأكيد طلبك",
+        "thank_you_title_payment": "تم تأكيد الدفع",
+        "thank_you_confirmed_order_with_email": "ستتلقى قريبًا رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
+        "thank_you_confirmed_order_with_phone": "ستتلقى قريبًا رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
+        "order_updates_title": "تحديثات الطلب",
+        "customer_information_title": "معلومات العميل",
+        "contact_information_title": "معلومات التواصل",
+        "shipping_address_title": "عنوان الشحن",
+        "marker": {
+          "shipping": "عنوان الشحن"
+        },
+        "payment_method_title": "وسيلة الدفع",
+        "billing_address_title": "عنوان الفوترة",
+        "return_to_store_link_label": "متابعة التسوق",
+        "contact_us_html": "هل تحتاج إلى مساعدة ؟%{contact_us}",
+        "order_status_updates_with_email": "ستتلقى تحديثات الشحن والتسليم عبر البريد الإلكتروني.",
+        "order_status_confirmed_order_with_email": "ستتلقى بريدًا إلكترونيًا عندما يكون طلبك جاهزًا."
       },
       "payment_gateway": {
         "credit_card_label": "بطاقة ائتمان"
