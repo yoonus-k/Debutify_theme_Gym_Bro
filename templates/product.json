@@ -133,6 +133,7 @@
     },
     "product-recommendations": {
       "type": "product-recommendations",
+      "disabled": true,
       "settings": {
         "show_product_recommendations": false,
         "title": "Recommended for you",
@@ -150,11 +151,13 @@
     },
     "review-widget": {
       "type": "product-review-widget",
+      "disabled": true,
       "settings": {
       }
     },
     "faq-section": {
       "type": "dbtfy-faq-section",
+      "disabled": true,
       "blocks": {
         "14459f73-558f-4ee7-bcc1-9ff0a1bc91e0": {
           "type": "text_block",
