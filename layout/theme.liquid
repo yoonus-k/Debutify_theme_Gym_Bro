@@ -210,7 +210,7 @@
     <script src="{{ 'activate.js' | asset_url }}" defer="defer"></script>
    
 <!--Custom CSS File -------------------- -->
-    <!-- {{ "css.css" | asset_url | stylesheet_tag }} -->
+    {{ "css.css" | asset_url | stylesheet_tag }}
 
 <!--Custom JavaScript File -------------------- -->
    {% comment %} <script src="{{ 'java_script_custom.js' | asset_url }} " defer="defer"></script>{% endcomment %}
