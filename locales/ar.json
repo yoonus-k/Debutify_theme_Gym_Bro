@@ -74,7 +74,8 @@
   },
   "general": {
     "newsletter_form": {
-      "submit": "إشتراك"
+      "submit": "إشتراك",
+      "newsletter_placeholder": "البريد الإلكتروني"
     }
   },
   "shopify": {
