@@ -238,7 +238,8 @@
         "thank_you_title_payment": "تم تأكيد الدفع",
         "thank_you_confirmed_order_with_email": "ستتلقى قريبًا رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
         "thank_you_confirmed_order_with_phone": "ستتلقى قريبًا رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
-        "order_updates_title": "تحديثات الطلب"
+        "order_updates_title": "تحديثات الطلب",
+        "customer_information_title": "معلومات العميل"
       },
       "payment_gateway": {
         "credit_card_label": "بطاقة ائتمان"
