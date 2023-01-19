@@ -264,6 +264,47 @@
       },
       "dbtfy-cart-upsell": {
         "type": "dbtfy-cart-upsell",
+        "blocks": {
+          "abf58afd-6aa2-45fe-b29f-59864ef31bee": {
+            "type": "cart-upsell",
+            "settings": {
+              "title": "",
+              "general_upsell_title_1": "You might also like:",
+              "general_upsell_product_offer_1": "2022-best-selling-usb-ultrasonic-flame-humidifier-led-rgb-colorful-essential-oil-fire-flame-aroma-diffuser",
+              "general_upsell_btn_title_1": "",
+              "general_upsell_title_2": "You might also like:",
+              "general_upsell_product_offer_2": "",
+              "general_upsell_btn_title_2": "",
+              "general_upsell_title_3": "You might also like:",
+              "general_upsell_product_offer_3": "",
+              "general_upsell_btn_title_3": "",
+              "general_upsell_title_4": "You might also like:",
+              "general_upsell_product_offer_4": "",
+              "general_upsell_btn_title_4": "",
+              "general_upsell_title_5": "You might also like:",
+              "general_upsell_product_offer_5": "",
+              "general_upsell_btn_title_5": "",
+              "general_upsell_title_6": "You might also like:",
+              "general_upsell_product_offer_6": "",
+              "general_upsell_btn_title_6": "",
+              "general_upsell_title_7": "You might also like:",
+              "general_upsell_product_offer_7": "",
+              "general_upsell_btn_title_7": "",
+              "general_upsell_title_8": "You might also like:",
+              "general_upsell_product_offer_8": "",
+              "general_upsell_btn_title_8": "",
+              "general_upsell_title_9": "You might also like:",
+              "general_upsell_product_offer_9": "",
+              "general_upsell_btn_title_9": "",
+              "general_upsell_title_10": "You might also like:",
+              "general_upsell_product_offer_10": "",
+              "general_upsell_btn_title_10": ""
+            }
+          }
+        },
+        "block_order": [
+          "abf58afd-6aa2-45fe-b29f-59864ef31bee"
+        ],
         "settings": {
           "dbtfy_cart_upsell_button_style": "btn--primary"
         }
