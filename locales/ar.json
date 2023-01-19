@@ -232,7 +232,8 @@
         "refund_policy": "سياسة الاسترجاع"
       },
       "thank_you": {
-        "shipping_method_title": "وسيلة الشحن"
+        "shipping_method_title": "وسيلة الشحن",
+        "page_title_no_name": "شكرًا لك على تسوقك معنا !"
       },
       "payment_gateway": {
         "credit_card_label": "بطاقة ائتمان"
