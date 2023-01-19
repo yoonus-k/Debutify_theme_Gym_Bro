@@ -244,7 +244,8 @@
         "shipping_address_title": "عنوان الشحن",
         "marker": {
           "shipping": "عنوان الشحن"
-        }
+        },
+        "payment_method_title": "وسيلة الدفع"
       },
       "payment_gateway": {
         "credit_card_label": "بطاقة ائتمان"
