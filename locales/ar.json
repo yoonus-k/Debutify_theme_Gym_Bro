@@ -251,7 +251,8 @@
         "payment_method_title": "وسيلة الدفع",
         "billing_address_title": "عنوان الفوترة",
         "return_to_store_link_label": "متابعة التسوق",
-        "contact_us_html": "هل تحتاج إلى مساعدة ؟%{contact_us}"
+        "contact_us_html": "هل تحتاج إلى مساعدة ؟%{contact_us}",
+        "order_status_updates_with_email": "ستتلقى تحديثات الشحن والتسليم عبر البريد الإلكتروني."
       },
       "payment_gateway": {
         "credit_card_label": "بطاقة ائتمان"
