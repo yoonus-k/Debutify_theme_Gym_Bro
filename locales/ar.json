@@ -32,6 +32,9 @@
     },
     "cart_savings": {
       "label": "مجموع التوفير"
+    },
+    "order_tracking": {
+      "input_placeholder": "أدخل رقم التتبع..."
     }
   },
   "cart": {
