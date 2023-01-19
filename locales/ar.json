@@ -31,7 +31,7 @@
       "placeholder": "أدخل الرمز الترويجي هنا"
     },
     "cart_savings": {
-      "label": "مجموع التوفير"
+      "label": "التوفير"
     },
     "order_tracking": {
       "input_placeholder": "أدخل رقم التتبع...",
