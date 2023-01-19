@@ -147,11 +147,11 @@
     {%- render "social-meta-tags" -%}
 
     <!-- CSS  -->
-    {% if shop.locale =='ar'%}
+    {%- if shop.locale =='ar' -%}
     {{ "theme-ar.scss.css" | asset_url | stylesheet_tag }}
-    {% else %}
+    {%- else -%}
     {{ "theme.scss.css" | asset_url | stylesheet_tag }}
-    {% endif %}
+    {%- endif -%}
     {{ "theme.scss.css" | asset_url | stylesheet_tag }}
 
     {%- if settings.dbtfy_delivery_date -%}
