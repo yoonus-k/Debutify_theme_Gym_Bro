@@ -240,7 +240,11 @@
         "thank_you_confirmed_order_with_phone": "ستتلقى قريبًا رسالة تأكيد بالبريد الإلكتروني تحتوي على رقم طلبك.",
         "order_updates_title": "تحديثات الطلب",
         "customer_information_title": "معلومات العميل",
-        "contact_information_title": "معلومات التواصل"
+        "contact_information_title": "معلومات التواصل",
+        "shipping_address_title": "عنوان الشحن",
+        "marker": {
+          "shipping": "عنوان الشحن"
+        }
       },
       "payment_gateway": {
         "credit_card_label": "بطاقة ائتمان"
