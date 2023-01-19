@@ -34,7 +34,8 @@
       "label": "مجموع التوفير"
     },
     "order_tracking": {
-      "input_placeholder": "أدخل رقم التتبع..."
+      "input_placeholder": "أدخل رقم التتبع...",
+      "button_text": "تتبع الشحنة"
     }
   },
   "cart": {
