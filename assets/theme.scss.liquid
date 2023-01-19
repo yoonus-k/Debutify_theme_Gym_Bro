@@ -3705,11 +3705,9 @@ button {
     &::after {
         @include iconFontStack;
         content: "add";
-        {%- if shop.locale == 'ar' -%}
+        
         margin-left:auto;
-        {%- else -%}
-        margin-right:auto;
-        {%- endif -%}
+        
         // margin-left: $spacer-sm;
         @include flex-shrink(0);
     }
