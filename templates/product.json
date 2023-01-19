@@ -1,1 +1,283 @@
-{"sections":{"main":{"type":"product-template","settings":{"show_product_vendor":false,"show_product_type":false,"show_product_sku":false,"show_product_tags":false,"show_sharing_icons":true,"show_product_collections":false,"product_title_large":false,"product_title_position_mobile":"below","enable_image_zoom_on_icon_click":true,"image_display_type":"image_zoom","enable_fading_effect":false,"enable_video_looping":true,"media_layout":"thumbnails","image_size":"medium","enable_arrows":true,"thumbnails_position":"bottom_center","quantity_enabled":true,"product_selector":"select","show_product_description":true,"enable_split_description":false,"description_full":false,"dbtfy_product_description_position":"separate_section","description_style":"section-border","text_alignment":"text-center","text_alignment_mobile":"small--text-center"}},"upsell-bundles":{"type":"dbtfy-upsell-bundles","settings":{"dbtfy_upsell_bundles_title":"Frequently bought together","dbtfy_upsell_bundles_subtitle":"","dbtfy_upsell_bundles_total":"Total price:","dbtfy_upsell_bundles_cart":"Add selected items","dbtfy_upsell_bundles_icons":"library_add_check","dbtfy_upsell_bundles_current":"This item:","section_style":"section-border","dbtfy_upsell_bundles_reviews":false,"show_automatic_bundles":true,"dbtfy_upsell_bundles_limit":"2","dbtfy_upsell_bundles_position":"product","dbtfy_upsell_bundles_discount_code":"","dbtfy_upsell_bundles_discount_amount":"","dbtfy_upsell_bundles_discount_type":"%"}},"pricing-table":{"type":"dbtfy-pricing-table","settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Pricing table","subtitle":"","section_style":"section-blank","dbtfy_button_position":"middle"}},"product-recommendations":{"type":"product-recommendations","settings":{"show_product_recommendations":true,"title":"Recommended for you","subtitle":"","section_style":"section-border","rows":"2","desktop_grid":"4","mobile_grid":"2","slider_related_products":true,"arrows":true,"dots":true,"autoplay":false,"autoplayspeed":5}},"review-widget":{"type":"product-review-widget","settings":{}},"faq-section":{"type":"dbtfy-faq-section","blocks":{"14459f73-558f-4ee7-bcc1-9ff0a1bc91e0":{"type":"text_block","settings":{"title":"","dbtfy_faq_page_open_1":false,"dbtfy_faq_page_icon_1":"local_shipping","question_1":"How long does it take to receive my order?","text_1":"<p>You will receive your order within 3-7 business days for US and Europe customers. For other countries, please refer to our <a href=\"\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy<\/a>.<\/p>","dbtfy_faq_page_open_2":false,"dbtfy_faq_page_icon_2":"check_box","question_2":"What's included in the box?","text_2":"<p>✔ 1 M3 speaker✔ 1 USB cable✔ 1 user manual✔ 1 carrying strip<\/p>","dbtfy_faq_page_open_3":false,"dbtfy_faq_page_icon_3":"search","question_3":"How to use it?","text_3":"<p>When you first receive your product, please charge it until fully charged to get the best experience with our product.<\/p>","dbtfy_faq_page_open_4":false,"dbtfy_faq_page_icon_4":"bluetooth","question_4":"Can I connect two speakers to my phone?","text_4":"<p>1. Press the power button to turn on the two speakers at the same time;<\/p><p>2. After 5-8 seconds, the two speakers are automatically paired successfully, and the voice prompts \"left channel\", \"right channel\"<\/p>","dbtfy_faq_page_open_5":false,"dbtfy_faq_page_icon_5":"usb","question_5":"Can I charge it with my USB?","text_5":"<p>Of course. However, we provide a USB cable with our speaker!<\/p>","dbtfy_faq_page_open_6":false,"dbtfy_faq_page_icon_6":"battery_charging_full","question_6":"How long the battery charge lasts?","text_6":"<p>Around 3-4 hours.<\/p>","dbtfy_faq_page_open_7":false,"dbtfy_faq_page_icon_7":"card_giftcard","question_7":"Is it suitable for gifts?","text_7":"<p> Absolutely and Boldly! Take one, and order three more! Friends and children. You will get discounts when you buy more than one.<\/p>","dbtfy_faq_page_open_8":false,"dbtfy_faq_page_icon_8":"","question_8":"","text_8":"","dbtfy_faq_page_open_9":false,"dbtfy_faq_page_icon_9":"","question_9":"","text_9":"","dbtfy_faq_page_open_10":false,"dbtfy_faq_page_icon_10":"","question_10":"","text_10":""}}},"block_order":["14459f73-558f-4ee7-bcc1-9ff0a1bc91e0"],"settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"FAQ","subtitle":"","section_style":"section-border","dbtfy_faq_searchbox":true,"dbtfy_faq_search_placeholder":"Search questions...","text_alignment":"text-center","text_alignment_mobile":"text-center","dbtfy_faq_bannerbox":true,"dbtfy_faq_banner_icon":"live_help","dbtfy_faq_banner_text":"Didn't find your answer?","dbtfy_faq_banner_subtitle":"Our customer service will be happy to help you.","dbtfy_faq_btn":"Get in Touch","dbtfy_faq_link":""}},"related-products":{"type":"related-products","settings":{"show_related_products":false,"related_collection":true,"same_vendor":false,"same_type":false,"never_empty":true,"title":"You may also like","subtitle":"","section_style":"section-border","rows":"1","desktop_grid":"4","mobile_grid":"2","slider_related_products":true,"arrows":true,"dots":true,"autoplay":false,"autoplayspeed":5}},"back-to-collection":{"type":"product-back-to-collection","settings":{}},"quotes":{"type":"quotes","settings":{"show_on_desktop":true,"show_on_mobile":true,"title":"Testimonials","subtitle":"","section_style":"section-blank","quote_width":"60","arrows":true,"dots":true,"autoplay":true,"autoplayspeed":5}}},"order":["main","upsell-bundles","pricing-table","product-recommendations","review-widget","faq-section","related-products","back-to-collection","quotes"]}
+{
+  "sections": {
+    "main": {
+      "type": "product-template",
+      "settings": {
+        "show_product_vendor": false,
+        "show_product_type": false,
+        "show_product_sku": false,
+        "show_product_tags": false,
+        "show_sharing_icons": true,
+        "show_product_collections": false,
+        "product_title_large": false,
+        "product_title_position_mobile": "below",
+        "enable_image_zoom_on_icon_click": true,
+        "image_display_type": "image_zoom",
+        "enable_fading_effect": false,
+        "enable_video_looping": true,
+        "media_layout": "thumbnails",
+        "image_size": "medium",
+        "enable_arrows": true,
+        "thumbnails_position": "bottom_center",
+        "quantity_enabled": true,
+        "product_selector": "select",
+        "show_product_description": true,
+        "enable_split_description": false,
+        "description_full": false,
+        "dbtfy_product_description_position": "separate_section",
+        "description_style": "section-border",
+        "text_alignment": "text-center",
+        "text_alignment_mobile": "small--text-center"
+      }
+    },
+    "upsell-bundles": {
+      "type": "dbtfy-upsell-bundles",
+      "blocks": {
+        "c6ef4a55-f0dd-49e0-b56b-6be2df7864ec": {
+          "type": "bundle",
+          "settings": {
+            "title": "",
+            "dbtfy_upsell_bundles_product_trigger_1": "essential-oils-6-units-kit",
+            "dbtfy_upsell_bundles_product_offer_1_1": "2022-best-selling-usb-ultrasonic-flame-humidifier-led-rgb-colorful-essential-oil-fire-flame-aroma-diffuser",
+            "dbtfy_upsell_bundles_product_offer_2_1": "",
+            "dbtfy_upsell_bundles_discount_code_1": "",
+            "dbtfy_upsell_bundles_discount_amount_1": "",
+            "dbtfy_upsell_bundles_discount_type_1": "%",
+            "dbtfy_upsell_bundles_product_trigger_2": "",
+            "dbtfy_upsell_bundles_product_offer_1_2": "",
+            "dbtfy_upsell_bundles_product_offer_2_2": "",
+            "dbtfy_upsell_bundles_discount_code_2": "",
+            "dbtfy_upsell_bundles_discount_amount_2": "",
+            "dbtfy_upsell_bundles_discount_type_2": "%",
+            "dbtfy_upsell_bundles_product_trigger_3": "",
+            "dbtfy_upsell_bundles_product_offer_1_3": "",
+            "dbtfy_upsell_bundles_product_offer_2_3": "",
+            "dbtfy_upsell_bundles_discount_code_3": "",
+            "dbtfy_upsell_bundles_discount_amount_3": "",
+            "dbtfy_upsell_bundles_discount_type_3": "%",
+            "dbtfy_upsell_bundles_product_trigger_4": "",
+            "dbtfy_upsell_bundles_product_offer_1_4": "",
+            "dbtfy_upsell_bundles_product_offer_2_4": "",
+            "dbtfy_upsell_bundles_discount_code_4": "",
+            "dbtfy_upsell_bundles_discount_amount_4": "",
+            "dbtfy_upsell_bundles_discount_type_4": "%",
+            "dbtfy_upsell_bundles_product_trigger_5": "",
+            "dbtfy_upsell_bundles_product_offer_1_5": "",
+            "dbtfy_upsell_bundles_product_offer_2_5": "",
+            "dbtfy_upsell_bundles_discount_code_5": "",
+            "dbtfy_upsell_bundles_discount_amount_5": "",
+            "dbtfy_upsell_bundles_discount_type_5": "%",
+            "dbtfy_upsell_bundles_product_trigger_6": "",
+            "dbtfy_upsell_bundles_product_offer_1_6": "",
+            "dbtfy_upsell_bundles_product_offer_2_6": "",
+            "dbtfy_upsell_bundles_discount_code_6": "",
+            "dbtfy_upsell_bundles_discount_amount_6": "",
+            "dbtfy_upsell_bundles_discount_type_6": "%",
+            "dbtfy_upsell_bundles_product_trigger_7": "",
+            "dbtfy_upsell_bundles_product_offer_1_7": "",
+            "dbtfy_upsell_bundles_product_offer_2_7": "",
+            "dbtfy_upsell_bundles_discount_code_7": "",
+            "dbtfy_upsell_bundles_discount_amount_7": "",
+            "dbtfy_upsell_bundles_discount_type_7": "%",
+            "dbtfy_upsell_bundles_product_trigger_8": "",
+            "dbtfy_upsell_bundles_product_offer_1_8": "",
+            "dbtfy_upsell_bundles_product_offer_2_8": "",
+            "dbtfy_upsell_bundles_discount_code_8": "",
+            "dbtfy_upsell_bundles_discount_amount_8": "",
+            "dbtfy_upsell_bundles_discount_type_8": "%",
+            "dbtfy_upsell_bundles_product_trigger_9": "",
+            "dbtfy_upsell_bundles_product_offer_1_9": "",
+            "dbtfy_upsell_bundles_product_offer_2_9": "",
+            "dbtfy_upsell_bundles_discount_code_9": "",
+            "dbtfy_upsell_bundles_discount_amount_9": "",
+            "dbtfy_upsell_bundles_discount_type_9": "%",
+            "dbtfy_upsell_bundles_product_trigger_10": "",
+            "dbtfy_upsell_bundles_product_offer_1_10": "",
+            "dbtfy_upsell_bundles_product_offer_2_10": "",
+            "dbtfy_upsell_bundles_discount_code_10": "",
+            "dbtfy_upsell_bundles_discount_amount_10": "",
+            "dbtfy_upsell_bundles_discount_type_10": "%"
+          }
+        }
+      },
+      "block_order": [
+        "c6ef4a55-f0dd-49e0-b56b-6be2df7864ec"
+      ],
+      "settings": {
+        "dbtfy_upsell_bundles_title": "Frequently bought together",
+        "dbtfy_upsell_bundles_subtitle": "",
+        "dbtfy_upsell_bundles_total": "Total price:",
+        "dbtfy_upsell_bundles_cart": "Add selected items",
+        "dbtfy_upsell_bundles_icons": "library_add_check",
+        "dbtfy_upsell_bundles_current": "This item:",
+        "section_style": "section-border",
+        "dbtfy_upsell_bundles_reviews": false,
+        "show_automatic_bundles": false,
+        "dbtfy_upsell_bundles_limit": "2",
+        "dbtfy_upsell_bundles_position": "product",
+        "dbtfy_upsell_bundles_discount_code": "",
+        "dbtfy_upsell_bundles_discount_amount": "",
+        "dbtfy_upsell_bundles_discount_type": "%"
+      }
+    },
+    "pricing-table": {
+      "type": "dbtfy-pricing-table",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Pricing table",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "dbtfy_button_position": "middle"
+      }
+    },
+    "product-recommendations": {
+      "type": "product-recommendations",
+      "disabled": true,
+      "settings": {
+        "show_product_recommendations": false,
+        "title": "Recommended for you",
+        "subtitle": "",
+        "section_style": "section-border",
+        "rows": "2",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    },
+    "review-widget": {
+      "type": "product-review-widget",
+      "disabled": true,
+      "settings": {
+      }
+    },
+    "faq-section": {
+      "type": "dbtfy-faq-section",
+      "disabled": true,
+      "blocks": {
+        "14459f73-558f-4ee7-bcc1-9ff0a1bc91e0": {
+          "type": "text_block",
+          "settings": {
+            "title": "",
+            "dbtfy_faq_page_open_1": false,
+            "dbtfy_faq_page_icon_1": "local_shipping",
+            "question_1": "How long does it take to receive my order?",
+            "text_1": "<p>You will receive your order within 3-7 business days for US and Europe customers. For other countries, please refer to our <a href=\"\/ar\/policies\/shipping-policy\" target=\"_blank\" title=\"Shipping Policy\">shipping policy<\/a>.<\/p>",
+            "dbtfy_faq_page_open_2": false,
+            "dbtfy_faq_page_icon_2": "check_box",
+            "question_2": "What's included in the box?",
+            "text_2": "<p>✔ 1 M3 speaker✔ 1 USB cable✔ 1 user manual✔ 1 carrying strip<\/p>",
+            "dbtfy_faq_page_open_3": false,
+            "dbtfy_faq_page_icon_3": "search",
+            "question_3": "How to use it?",
+            "text_3": "<p>When you first receive your product, please charge it until fully charged to get the best experience with our product.<\/p>",
+            "dbtfy_faq_page_open_4": false,
+            "dbtfy_faq_page_icon_4": "bluetooth",
+            "question_4": "Can I connect two speakers to my phone?",
+            "text_4": "<p>1. Press the power button to turn on the two speakers at the same time;<\/p><p>2. After 5-8 seconds, the two speakers are automatically paired successfully, and the voice prompts \"left channel\", \"right channel\"<\/p>",
+            "dbtfy_faq_page_open_5": false,
+            "dbtfy_faq_page_icon_5": "usb",
+            "question_5": "Can I charge it with my USB?",
+            "text_5": "<p>Of course. However, we provide a USB cable with our speaker!<\/p>",
+            "dbtfy_faq_page_open_6": false,
+            "dbtfy_faq_page_icon_6": "battery_charging_full",
+            "question_6": "How long the battery charge lasts?",
+            "text_6": "<p>Around 3-4 hours.<\/p>",
+            "dbtfy_faq_page_open_7": false,
+            "dbtfy_faq_page_icon_7": "card_giftcard",
+            "question_7": "Is it suitable for gifts?",
+            "text_7": "<p> Absolutely and Boldly! Take one, and order three more! Friends and children. You will get discounts when you buy more than one.<\/p>",
+            "dbtfy_faq_page_open_8": false,
+            "dbtfy_faq_page_icon_8": "",
+            "question_8": "",
+            "text_8": "",
+            "dbtfy_faq_page_open_9": false,
+            "dbtfy_faq_page_icon_9": "",
+            "question_9": "",
+            "text_9": "",
+            "dbtfy_faq_page_open_10": false,
+            "dbtfy_faq_page_icon_10": "",
+            "question_10": "",
+            "text_10": ""
+          }
+        }
+      },
+      "block_order": [
+        "14459f73-558f-4ee7-bcc1-9ff0a1bc91e0"
+      ],
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "FAQ",
+        "subtitle": "",
+        "section_style": "section-border",
+        "dbtfy_faq_searchbox": true,
+        "dbtfy_faq_search_placeholder": "Search questions...",
+        "text_alignment": "text-center",
+        "text_alignment_mobile": "text-center",
+        "dbtfy_faq_bannerbox": true,
+        "dbtfy_faq_banner_icon": "live_help",
+        "dbtfy_faq_banner_text": "Didn't find your answer?",
+        "dbtfy_faq_banner_subtitle": "Our customer service will be happy to help you.",
+        "dbtfy_faq_btn": "Get in Touch",
+        "dbtfy_faq_link": ""
+      }
+    },
+    "related-products": {
+      "type": "related-products",
+      "settings": {
+        "show_related_products": false,
+        "related_collection": true,
+        "same_vendor": false,
+        "same_type": false,
+        "never_empty": true,
+        "title": "You may also like",
+        "subtitle": "",
+        "section_style": "section-border",
+        "rows": "1",
+        "desktop_grid": "4",
+        "mobile_grid": "2",
+        "slider_related_products": true,
+        "arrows": true,
+        "dots": true,
+        "autoplay": false,
+        "autoplayspeed": 5
+      }
+    },
+    "back-to-collection": {
+      "type": "product-back-to-collection",
+      "settings": {
+      }
+    },
+    "quotes": {
+      "type": "quotes",
+      "settings": {
+        "show_on_desktop": true,
+        "show_on_mobile": true,
+        "title": "Testimonials",
+        "subtitle": "",
+        "section_style": "section-blank",
+        "quote_width": "60",
+        "arrows": true,
+        "dots": true,
+        "autoplay": true,
+        "autoplayspeed": 5
+      }
+    }
+  },
+  "order": [
+    "main",
+    "upsell-bundles",
+    "pricing-table",
+    "product-recommendations",
+    "review-widget",
+    "faq-section",
+    "related-products",
+    "back-to-collection",
+    "quotes"
+  ]
+}
