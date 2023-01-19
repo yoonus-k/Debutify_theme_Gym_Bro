@@ -245,7 +245,7 @@
             "type": "point",
             "settings": {
               "title": "",
-              "dbtfy_bullet_point_text_1": "<p>Free shipping<\/p>",
+              "dbtfy_bullet_point_text_1": "<p>Free shipping <\/p>",
               "dbtfy_bullet_point_icon_1": "check_circle",
               "visibility_1": "product",
               "dbtfy_bullet_point_collection_1": "",
