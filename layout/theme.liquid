@@ -106,7 +106,7 @@
     -%}
 
     <!-- Preload assets -->
-    <link rel="preload" href="{{ "theme.scss.css" | asset_url }}" as="style">
+    <link rel="preload" href="{{ "theme{% if shop.locale=='ar'%}-ar{% else %}{%endif %}.scss.css" | asset_url }}" as="style">
     <link rel="preload" as="font" href="{{ header_family | font_url }}" type="font/woff2" crossorigin>
     <link rel="preload" as="font" href="{{ accent_family | font_url }}" type="font/woff2" crossorigin>
     <link rel="preload" as="font" href="{{ base_family | font_url }}" type="font/woff2" crossorigin>
