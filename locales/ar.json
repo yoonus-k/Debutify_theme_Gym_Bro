@@ -50,7 +50,8 @@
       "checkout": "مواصلة للدفع",
       "empty": "العربة فارغة",
       "continue_browsing_html": "مواصلةالتسوق",
-      "savings_html": "لقد وفرت {{ savings }}"
+      "savings_html": "لقد وفرت {{ savings }}",
+      "custom_currency_html": "تتم معالجة جميع الطلبات بعملة {{shopCurrency}}. أثناء عرض محتوى سلة التسوق الخاصة بك حاليًا ، ستقوم بالدفع باستخدام {{shopCurrency}} بأحدث سعر صرف."
     },
     "label": {
       "quantity": "الكمية",
