@@ -8,7 +8,7 @@
     "c799fc4b-723d-46eb-990e-d911c744a5bc": {
       "type": "featured-image",
       "settings": {
-        "show_on_desktop": true,
+        "show_on_desktop": false,
         "show_on_mobile": true,
         "full_width": false,
         "image": "shopify:\/\/shop_images\/Ultra_transprent.png",
