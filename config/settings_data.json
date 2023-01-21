@@ -27,6 +27,7 @@
     "buy_now_text": "Buy now",
     "cart_notes_enable": false,
     "cart_type": "drawer",
+    "icon_cart": "shopping_cart",
     "color_announcement_bg": "#360c7b",
     "color_announcement_text": "#FFFFFF",
     "color_sales_price": "#ff0000",
