@@ -2,6 +2,7 @@
   "current": {
     "hero_header_desktop": true,
     "hero_header_mobile": false,
+    "search_enabled": false,
     "search_show_collections": false,
     "search_show_articles": false,
     "search_show_pages": false,
@@ -56,7 +57,7 @@
     "dbtfy_newsletter_popup": false,
     "dbtfy_order_feedback": false,
     "dbtfy_social_discount": false,
-    "dbtfy_wish_list": false,
+    "dbtfy_wish_list": true,
     "dbtfy_collection_filters": false,
     "dbtfy_delivery_date": false,
     "dbtfy_mega_menu": true,
