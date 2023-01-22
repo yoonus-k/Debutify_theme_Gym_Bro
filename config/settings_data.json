@@ -1004,12 +1004,27 @@
               "button_label": "",
               "button_link": ""
             }
+          },
+          "77834597-9b1d-493e-bd8f-25e57c931fa3": {
+            "type": "text",
+            "settings": {
+              "title": "",
+              "guarantee_icon": "support_agent",
+              "heading_text": "Customer Service",
+              "text": "<p>Our support team is available 24\/7<\/p>",
+              "text_alignment": "text-center",
+              "text_alignment_mobile": "text-center",
+              "button_style": "btn-outline-primary",
+              "button_label": "",
+              "button_link": ""
+            }
           }
         },
         "block_order": [
           "guarantee-0",
           "guarantee-1",
-          "guarantee-2"
+          "guarantee-2",
+          "77834597-9b1d-493e-bd8f-25e57c931fa3"
         ],
         "settings": {
           "show_guarantee": true,
