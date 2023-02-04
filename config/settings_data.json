@@ -45,6 +45,7 @@
     "header_family": "itc_stone_serif_n6",
     "accent_family": "itc_stone_serif_n4",
     "base_family": "itc_stone_serif_n4",
+    "base_font_size": 18,
     "navigation_font_size": 20,
     "dbtfy_cart_goal": false,
     "dbtfy_cart_reminder": false,
